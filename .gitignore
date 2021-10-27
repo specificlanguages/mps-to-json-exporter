@@ -6,3 +6,6 @@ build/
 .idea/
 *.iml
 build.xml
+
+# This file contains private settings for publishing
+gradle.properties

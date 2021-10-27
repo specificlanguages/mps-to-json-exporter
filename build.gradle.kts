@@ -24,4 +24,16 @@ publishing {
             // versionMapping { usage("java-runtime") { fromResolutionOf("generation") } }
         }
     }
+    repositories {
+        if (project.hasProperty("gpr.user")) {
+            maven {
+                name = "GitHubPackages"
+                url = uri("https://maven.pkg.github.com/specificlanguages/mps-to-json-exporter")
+                credentials {
+                    username = project.findProperty("gpr.user") as String?
+                    password = project.findProperty("gpr.key") as String?
+                }
+            }
+        }
+    }
 }
