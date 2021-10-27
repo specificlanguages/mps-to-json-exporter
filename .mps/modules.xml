@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.json/com.specificlanguages.json.mpl" folder="json" />
+      <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.metamodel2jsonschema/com.specificlanguages.metamodel2jsonschema.mpl" folder="metamodel2jsonschema" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.specificlanguages.metamodel2jsonschema.sandbox/com.specificlanguages.metamodel2jsonschema.sandbox.msd" folder="metamodel2jsonschema" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.specificlanguages.mps-to-json-exporter.build/com.specificlanguages.mps-to-json-exporter.build.msd" folder="build" />
+    </projectModules>
+  </component>
+</project>
