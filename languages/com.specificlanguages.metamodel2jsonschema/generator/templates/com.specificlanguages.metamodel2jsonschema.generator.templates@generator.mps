@@ -194,9 +194,7 @@
       <concept id="2110045694544569357" name="com.specificlanguages.json.structure.JsonArray" flags="ng" index="IoStG">
         <child id="2110045694544569360" name="items" index="IoStL" />
       </concept>
-      <concept id="2110045694544573200" name="com.specificlanguages.json.structure.JsonBoolean" flags="ng" index="IoT1L">
-        <property id="2110045694544573201" name="value" index="IoT1K" />
-      </concept>
+      <concept id="2110045694544573200" name="com.specificlanguages.json.structure.JsonBoolean" flags="ng" index="IoT1L" />
       <concept id="2110045694544566904" name="com.specificlanguages.json.structure.JsonFile" flags="ng" index="IoV$p">
         <child id="2110045694544566910" name="content" index="IoV$v" />
       </concept>
@@ -812,7 +810,7 @@
             <property role="TrG5h" value="ConceptOrSubconcepts" />
             <node concept="IoVAd" id="11l7BDuIac8" role="IoVAj">
               <node concept="IoVAe" id="11l7BDuIacb" role="IoVAl">
-                <property role="TrG5h" value="oneOf" />
+                <property role="TrG5h" value="anyOf" />
                 <node concept="IoStG" id="11l7BDuIacf" role="IoVAj">
                   <node concept="IoVAd" id="11l7BDuIvJt" role="IoStL">
                     <node concept="IoVAe" id="11l7BDuIvOO" role="IoVAl">
@@ -1107,9 +1105,7 @@
         </node>
         <node concept="IoVAe" id="s0RM0t7Nzq" role="IoVAl">
           <property role="TrG5h" value="additionalProperties" />
-          <node concept="IoT1L" id="5scyyTadlFO" role="IoVAj">
-            <property role="IoT1K" value="true" />
-          </node>
+          <node concept="IoT1L" id="5scyyTadlFO" role="IoVAj" />
         </node>
         <node concept="IoVAe" id="6UYVSPrI1Zh" role="IoVAl">
           <property role="TrG5h" value="properties" />
