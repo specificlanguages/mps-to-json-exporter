@@ -23,6 +23,9 @@
       <concept id="4857795437452979004" name="com.specificationlanguages.model2json.structure.Named" flags="ng" index="NzV0a" />
     </language>
     <language id="c8036489-5139-41f2-af1c-e66872018a1b" name="com.specificationlanguages.jsontest">
+      <concept id="7660746562008890419" name="com.specificationlanguages.jsontest.structure.AggregateShape" flags="ng" index="2cxsLr">
+        <child id="7660746562008890421" name="singleShapes" index="2cxsLt" />
+      </concept>
       <concept id="6272540312437665296" name="com.specificationlanguages.jsontest.structure.MainConcept" flags="ng" index="t9EgY">
         <child id="6272540312437665391" name="shapeRequired" index="t9Eh1" />
       </concept>
@@ -52,8 +55,18 @@
   </node>
   <node concept="t9EgY" id="5scyyTaaAIH">
     <property role="TrG5h" value="Main" />
-    <node concept="t9Ei1" id="5scyyTabVSy" role="t9Eh1">
-      <property role="t9Eis" value="12" />
+    <node concept="2cxsLr" id="6Dgs6zAPsip" role="t9Eh1">
+      <property role="TrG5h" value="level1" />
+      <node concept="2cxsLr" id="6Dgs6zAPsis" role="2cxsLt">
+        <property role="TrG5h" value="level2" />
+        <node concept="2cxsLr" id="6Dgs6zAPsiu" role="2cxsLt">
+          <property role="TrG5h" value="level3" />
+          <node concept="t9Ei1" id="6Dgs6zAPsiw" role="2cxsLt">
+            <property role="TrG5h" value="circle" />
+            <property role="t9Eis" value="123" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="qcxQF" id="5scyyTaaAWU">

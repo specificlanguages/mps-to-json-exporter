@@ -12,6 +12,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -75,7 +76,11 @@
   <node concept="1TIwiD" id="5scyyTaayUf">
     <property role="EcuMT" value="6272540312437665423" />
     <property role="TrG5h" value="Shape" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6Dgs6zAPrKO" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5scyyTaayUJ">
     <property role="EcuMT" value="6272540312437665455" />
@@ -95,6 +100,17 @@
       <property role="IQ2nx" value="6272540312437665457" />
       <property role="TrG5h" value="width" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6Dgs6zAPrKN">
+    <property role="EcuMT" value="7660746562008890419" />
+    <property role="TrG5h" value="AggregateShape" />
+    <ref role="1TJDcQ" node="5scyyTaayUf" resolve="Shape" />
+    <node concept="1TJgyj" id="6Dgs6zAPrKP" role="1TKVEi">
+      <property role="IQ2ns" value="7660746562008890421" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="singleShape" />
+      <ref role="20lvS9" node="5scyyTaayUf" resolve="Shape" />
     </node>
   </node>
 </model>
