@@ -8,6 +8,7 @@
   <imports>
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
@@ -50,6 +51,11 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Metamodel To JSON Schema Export" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2qhlwWBfIA_" role="1TKVEi">
+      <property role="IQ2ns" value="2779097068147239333" />
+      <property role="20kJfa" value="nodeAttributeExtender" />
+      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
+    </node>
     <node concept="1TJgyi" id="2klTazKwQkq" role="1TKVEl">
       <property role="IQ2nx" value="2672293368155039002" />
       <property role="TrG5h" value="schemaId" />
@@ -75,16 +81,23 @@
     <node concept="1TJgyj" id="2klTazKwPCU" role="1TKVEi">
       <property role="IQ2ns" value="2672293368155036218" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="concepts" />
+      <property role="20kJfa" value="additionalConcepts" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="2klTazKwPCX" resolve="ConceptRef" />
     </node>
     <node concept="1TJgyj" id="2klTazKwQkm" role="1TKVEi">
       <property role="IQ2ns" value="2672293368155038998" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="enums" />
+      <property role="20kJfa" value="additionalEnums" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="2klTazKwPD0" resolve="EnumRef" />
+    </node>
+    <node concept="1TJgyj" id="2qhlwWB89kb" role="1TKVEi">
+      <property role="IQ2ns" value="2779097068145251595" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ignoredProperties" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4dEmNpKTuGW" resolve="Named" />
     </node>
     <node concept="PrWs8" id="2klTazKws_E" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -110,6 +123,14 @@
       <property role="20kJfa" value="enum" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4dEmNpKTuGW">
+    <property role="EcuMT" value="4857795437452979004" />
+    <property role="TrG5h" value="Named" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4dEmNpKTuHs" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

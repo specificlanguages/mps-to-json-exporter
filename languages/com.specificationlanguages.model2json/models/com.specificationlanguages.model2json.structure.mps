@@ -6,6 +6,7 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="uw2c" ref="r:0b9e32d0-26e5-4f98-8200-895d3357a3c1(com.specificlanguages.metamodel2jsonschema.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -16,18 +17,12 @@
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
-      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
-        <reference id="1169127628841" name="intfc" index="PrY4T" />
-      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
-        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
-        <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
-        <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
@@ -45,25 +40,15 @@
     <property role="R4oN_" value="Een model" />
     <property role="34LRSv" value="model2json" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="4dEmNpKTuGV" role="1TKVEi">
-      <property role="IQ2ns" value="4857795437452979003" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <property role="20kJfa" value="ignoredProperties" />
-      <ref role="20lvS9" node="4dEmNpKTuGW" resolve="Named" />
-    </node>
     <node concept="1TJgyj" id="4dEmNpKRs8W" role="1TKVEi">
       <property role="IQ2ns" value="4857795437452444220" />
       <property role="20kJfa" value="target" />
       <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="4dEmNpKTuGW">
-    <property role="EcuMT" value="4857795437452979004" />
-    <property role="TrG5h" value="Named" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="4dEmNpKTuHs" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="1TJgyj" id="2qhlwWB89yC" role="1TKVEi">
+      <property role="IQ2ns" value="2779097068145252520" />
+      <property role="20kJfa" value="export" />
+      <ref role="20lvS9" to="uw2c:2klTazKwsug" resolve="MetamodelToJsonSchemaExport" />
     </node>
   </node>
 </model>

@@ -12,15 +12,10 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
-    <import index="tp1h" ref="r:00000000-0000-4000-0000-011c89590319(jetbrains.mps.lang.refactoring.structure)" />
-    <import index="unno" ref="r:61e3d524-8c49-4491-b5e3-f6d6e9364527(jetbrains.mps.util)" />
-    <import index="i8bi" ref="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
-    <import index="18ew" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.util(MPS.Core/)" />
-    <import index="i51s" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.lang.smodel.generator.smodelAdapter(MPS.Core/)" />
-    <import index="911s" ref="r:9da2e6e5-b7a9-4059-9bac-c3700f7d675c(jetbrains.mps.core.properties.structure)" />
     <import index="tt1v" ref="r:dc033f18-3f1e-4eea-a07a-44a985508308(com.specificationlanguages.model2json.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="uw2c" ref="r:0b9e32d0-26e5-4f98-8200-895d3357a3c1(com.specificlanguages.metamodel2jsonschema.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -126,6 +121,9 @@
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
+      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
+        <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
@@ -790,11 +788,16 @@
             <node concept="2OqwBi" id="5scyyTagCp5" role="3fr31v">
               <node concept="2OqwBi" id="5scyyTagCp6" role="2Oq$k0">
                 <node concept="2OqwBi" id="5scyyTagCp7" role="2Oq$k0">
-                  <node concept="3Tsc0h" id="5scyyTagCp9" role="2OqNvi">
-                    <ref role="3TtcxE" to="tt1v:4dEmNpKTuGV" resolve="ignoredProperties" />
+                  <node concept="3Tsc0h" id="2qhlwWB9xQn" role="2OqNvi">
+                    <ref role="3TtcxE" to="uw2c:2qhlwWB89kb" resolve="ignoredProperties" />
                   </node>
-                  <node concept="37vLTw" id="1GXSsI_fWyF" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1GXSsI_fUMq" resolve="m2j" />
+                  <node concept="2OqwBi" id="2qhlwWB9x2Y" role="2Oq$k0">
+                    <node concept="37vLTw" id="1GXSsI_fWyF" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1GXSsI_fUMq" resolve="m2j" />
+                    </node>
+                    <node concept="3TrEf2" id="2qhlwWB9xjL" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tt1v:2qhlwWB89yC" resolve="export" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3$u5V9" id="5scyyTagCpa" role="2OqNvi">

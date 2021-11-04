@@ -4,10 +4,13 @@
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="tt1v" ref="r:dc033f18-3f1e-4eea-a07a-44a985508308(com.specificationlanguages.model2json.structure)" />
+    <import index="ng51" ref="r:c9f8a742-3432-4405-92b5-b03a7e6ac808(com.specificlanguages.metamodel2jsonschema.behavior)" />
+    <import index="uw2c" ref="r:0b9e32d0-26e5-4f98-8200-895d3357a3c1(com.specificlanguages.metamodel2jsonschema.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -67,6 +70,9 @@
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
+      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
+        <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
@@ -99,10 +105,15 @@
           <node concept="2OqwBi" id="5scyyTagCp5" role="3clFbG">
             <node concept="2OqwBi" id="5scyyTagCp6" role="2Oq$k0">
               <node concept="2OqwBi" id="5scyyTagCp7" role="2Oq$k0">
-                <node concept="3Tsc0h" id="5scyyTagCp9" role="2OqNvi">
-                  <ref role="3TtcxE" to="tt1v:4dEmNpKTuGV" resolve="ignoredProperties" />
+                <node concept="3Tsc0h" id="2qhlwWB9uW3" role="2OqNvi">
+                  <ref role="3TtcxE" to="uw2c:2qhlwWB89kb" resolve="ignoredProperties" />
                 </node>
-                <node concept="13iPFW" id="1GXSsI_g74x" role="2Oq$k0" />
+                <node concept="2OqwBi" id="2qhlwWB9usE" role="2Oq$k0">
+                  <node concept="13iPFW" id="1GXSsI_g74x" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="2qhlwWB9u_v" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tt1v:2qhlwWB89yC" resolve="export" />
+                  </node>
+                </node>
               </node>
               <node concept="3$u5V9" id="5scyyTagCpa" role="2OqNvi">
                 <node concept="1bVj0M" id="5scyyTagCpb" role="23t8la">
