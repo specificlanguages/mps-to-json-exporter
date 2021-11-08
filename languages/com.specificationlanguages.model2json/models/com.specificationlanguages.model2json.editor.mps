@@ -18,7 +18,6 @@
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
       <concept id="1239814640496" name="jetbrains.mps.lang.editor.structure.CellLayout_VerticalGrid" flags="nn" index="2EHx9g" />
-      <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -35,9 +34,6 @@
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
-      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
-        <child id="1219418656006" name="styleItem" index="3F10Kt" />
-      </concept>
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -49,22 +45,6 @@
       <node concept="2EHx9g" id="2qhlwWB9v6R" role="2iSdaV" />
       <node concept="3F0ifn" id="s0RM0tcGd3" role="3EZMnx">
         <property role="3F0ifm" value="Model2Json" />
-      </node>
-      <node concept="3EZMnI" id="4dEmNpKRsbp" role="3EZMnx">
-        <node concept="VPM3Z" id="4dEmNpKRsbr" role="3F10Kt" />
-        <node concept="3F0ifn" id="4dEmNpKRsbt" role="3EZMnx">
-          <property role="3F0ifm" value="Model to export" />
-        </node>
-        <node concept="1iCGBv" id="4dEmNpKRscu" role="3EZMnx">
-          <ref role="1NtTu8" to="tt1v:4dEmNpKRs8W" resolve="target" />
-          <node concept="1sVBvm" id="4dEmNpKRscw" role="1sWHZn">
-            <node concept="3F0A7n" id="4dEmNpKRsfu" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="4dEmNpKRsbu" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="2qhlwWB9v6V" role="3EZMnx">
         <node concept="2iRfu4" id="2qhlwWB9v6W" role="2iSdaV" />

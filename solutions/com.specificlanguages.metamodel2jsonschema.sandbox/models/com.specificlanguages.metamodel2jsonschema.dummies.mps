@@ -8,7 +8,6 @@
     <engage id="f3f42ddf-d692-4c29-90fb-7360196f01ab" name="com.specificlanguages.json" />
   </languages>
   <imports>
-    <import index="7lv6" ref="r:d4c45340-7034-41c5-b035-7c2da3e6fcda(com.specificlanguages.metamodel2json.genplan.genplan)" />
     <import index="wq9u" ref="fe3cd8c4-8135-4bb1-b98e-132f6b4abcbf/i:f020202(com.specificlanguages.model2jsonreader.generator/com.specificlanguages.model2jsonreader.generator@descriptor)" />
     <import index="tzy6" ref="r:1839ebaf-b37c-43ef-aca0-5098213646e6(com.specificlanguages.model2jsonreader.generator.templates@generator)" />
     <import index="k5wn" ref="r:71d5f97f-431a-47ff-adcc-308972a12cee(com.specificationlanguages.jsontest.structure)" />
@@ -28,7 +27,6 @@
     <language id="c72bb5ed-7d2b-4e68-8d06-5f02045d0bcc" name="com.specificationlanguages.model2json">
       <concept id="504648487287308939" name="com.specificationlanguages.model2json.structure.Model2Json" flags="ng" index="qcxQF">
         <reference id="2779097068145252520" name="export" index="1GsUB" />
-        <reference id="4857795437452444220" name="target" index="NHT$a" />
       </concept>
     </language>
     <language id="c8036489-5139-41f2-af1c-e66872018a1b" name="com.specificationlanguages.jsontest">
@@ -86,8 +84,14 @@
     </node>
   </node>
   <node concept="qcxQF" id="5scyyTaaAWU">
-    <ref role="NHT$a" node="5scyyTaaAIH" resolve="Main" />
     <ref role="1GsUB" node="5scyyTaaAyN" resolve="Testmetamodel2Json" />
+  </node>
+  <node concept="t9EgY" id="73cjAFghwi0">
+    <property role="TrG5h" value="Shapes-extra" />
+    <node concept="t9Ei1" id="73cjAFghwi4" role="t9Eh1">
+      <property role="TrG5h" value="circle-e1" />
+      <property role="t9Eis" value="111" />
+    </node>
   </node>
 </model>
 

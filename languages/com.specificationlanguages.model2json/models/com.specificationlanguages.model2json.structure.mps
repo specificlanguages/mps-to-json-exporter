@@ -40,11 +40,6 @@
     <property role="R4oN_" value="Een model" />
     <property role="34LRSv" value="model2json" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="4dEmNpKRs8W" role="1TKVEi">
-      <property role="IQ2ns" value="4857795437452444220" />
-      <property role="20kJfa" value="target" />
-      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyj" id="2qhlwWB89yC" role="1TKVEi">
       <property role="IQ2ns" value="2779097068145252520" />
       <property role="20kJfa" value="export" />

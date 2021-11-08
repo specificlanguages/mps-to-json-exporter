@@ -13,7 +13,6 @@
   </facets>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">1a98fe9b-4e07-467b-b9a4-0ac2718239fd(com.specificlanguages.metamodel2json.genplan)</dependency>
     <dependency reexport="false">fe3cd8c4-8135-4bb1-b98e-132f6b4abcbf(com.specificlanguages.model2jsonreader.generator)</dependency>
     <dependency reexport="false">c8036489-5139-41f2-af1c-e66872018a1b(com.specificationlanguages.jsontest)</dependency>
     <dependency reexport="false">37ca9e63-a2a3-4038-b64b-816e865c36b1(com.specificlanguages.metamodel2jsonschema)</dependency>
@@ -31,7 +30,6 @@
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="c8036489-5139-41f2-af1c-e66872018a1b(com.specificationlanguages.jsontest)" version="0" />
-    <module reference="1a98fe9b-4e07-467b-b9a4-0ac2718239fd(com.specificlanguages.metamodel2json.genplan)" version="0" />
     <module reference="37ca9e63-a2a3-4038-b64b-816e865c36b1(com.specificlanguages.metamodel2jsonschema)" version="0" />
     <module reference="5a359244-562e-4ae8-9b5e-3383c22a3100(com.specificlanguages.metamodel2jsonschema.sandbox)" version="0" />
     <module reference="fe3cd8c4-8135-4bb1-b98e-132f6b4abcbf(com.specificlanguages.model2jsonreader.generator)" version="0" />
