@@ -5,8 +5,9 @@
       <modulePath path="$PROJECT_DIR$/languages/com.specificationlanguages.jsontest/com.specificationlanguages.jsontest.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.specificationlanguages.model2json/com.specificationlanguages.model2json.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.json/com.specificlanguages.json.mpl" folder="json" />
+      <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.metamodel2java/com.specificlanguages.metamodel2java.mpl" folder="metamodel2" />
       <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.metamodel2jsonschema/com.specificlanguages.metamodel2jsonschema.mpl" folder="metamodel2jsonschema" />
-      <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.model2jsonreader/com.specificlanguages.model2jsonreader.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/com.specificlanguages.metamodel2java.runtime/com.specificlanguages.metamodel2java.runtime.msd" folder="metamodel2" />
       <modulePath path="$PROJECT_DIR$/solutions/com.specificlanguages.metamodel2json.genplan/com.specificlanguages.metamodel2json.genplan.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.specificlanguages.metamodel2jsonschema.sandbox/com.specificlanguages.metamodel2jsonschema.sandbox.msd" folder="metamodel2jsonschema" />
       <modulePath path="$PROJECT_DIR$/solutions/com.specificlanguages.mps-to-json-exporter.build/com.specificlanguages.mps-to-json-exporter.build.msd" folder="build" />

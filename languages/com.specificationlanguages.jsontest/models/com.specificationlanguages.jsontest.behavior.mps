@@ -135,7 +135,7 @@
     <property role="TrG5h" value="Extender" />
     <node concept="2tJIrI" id="2qhlwWBk$28" role="jymVt" />
     <node concept="3Tm1VV" id="2qhlwWBk$0z" role="1B3o_S" />
-    <node concept="3uibUv" id="2qhlwWBk$1I" role="EKbjA">
+    <node concept="3uibUv" id="7TR5K4vkytF" role="EKbjA">
       <ref role="3uigEE" to="ng51:2qhlwWBhd9c" resolve="INodeAttributeExtender" />
     </node>
     <node concept="3clFb_" id="2qhlwWBk$2N" role="jymVt">
