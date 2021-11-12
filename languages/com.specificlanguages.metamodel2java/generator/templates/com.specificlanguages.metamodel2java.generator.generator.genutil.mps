@@ -19,6 +19,9 @@
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="btm1" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.lang3(org.apache.commons/)" />
+    <import index="lhlt" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.fasterxml.jackson.databind.node(com.fasterxml.jackson/)" />
+    <import index="7k8f" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.fasterxml.jackson.databind(com.fasterxml.jackson/)" />
+    <import index="i6n2" ref="r:486b93c4-459c-4df1-9101-40406e19116b(com.specificlanguages.metamodel2java.runtime.model)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -33,6 +36,10 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1083245097125" name="jetbrains.mps.baseLanguage.structure.EnumClass" flags="ig" index="Qs71p">
+        <child id="1083245396908" name="enumConstant" index="Qtgdg" />
+      </concept>
+      <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -86,6 +93,9 @@
       </concept>
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
+      </concept>
+      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
+        <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -599,6 +609,40 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1hpma8pep25" role="jymVt" />
+    <node concept="2YIFZL" id="4$78109ydnG" role="jymVt">
+      <property role="TrG5h" value="allLinkDeclarations" />
+      <node concept="3clFbS" id="4$78109ydnH" role="3clF47">
+        <node concept="3cpWs6" id="4$78109ydnK" role="3cqZAp">
+          <node concept="2OqwBi" id="4$78109ydnL" role="3cqZAk">
+            <node concept="37vLTw" id="4$78109ydnM" role="2Oq$k0">
+              <ref role="3cqZAo" node="4$78109ydoe" resolve="concept" />
+            </node>
+            <node concept="2qgKlT" id="4$78109ydnN" role="2OqNvi">
+              <ref role="37wK5l" to="tpcn:hEwILKK" resolve="getLinkDeclarations" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4$78109ydob" role="1B3o_S" />
+      <node concept="A3Dl8" id="4$78109ydoc" role="3clF45">
+        <node concept="3Tqbb2" id="4$78109ydod" role="A3Ik2">
+          <ref role="ehGHo" to="tpce:f_TJgxE" resolve="LinkDeclaration" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4$78109ydoe" role="3clF46">
+        <property role="TrG5h" value="concept" />
+        <node concept="3Tqbb2" id="4$78109ydof" role="1tU5fm">
+          <ref role="ehGHo" to="tpce:f_TIwhg" resolve="ConceptDeclaration" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="4$78109ydog" role="lGtFl">
+        <node concept="TZ5HA" id="4$78109ydoh" role="TZ5H$">
+          <node concept="1dT_AC" id="4$78109ydoi" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns all the link declarations owned by this concept and its implemented interfaces" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="4aDR7MCZNLT" role="jymVt" />
     <node concept="2tJIrI" id="4aDR7MCZMHD" role="jymVt" />
     <node concept="3Tm1VV" id="4aDR7MCZ5tK" role="1B3o_S" />
@@ -915,6 +959,36 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="Qs71p" id="4$78109pqYi">
+    <property role="TrG5h" value="DummyEnum" />
+    <node concept="QsSxf" id="4$78109pr06" role="Qtgdg">
+      <property role="TrG5h" value="DummyValue" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="3Tm1VV" id="4$78109pqYj" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="4$78109qMXy">
+    <property role="TrG5h" value="DummyClass" />
+    <node concept="2YIFZL" id="4$78109zOGL" role="jymVt">
+      <property role="TrG5h" value="dummyStaticMethod" />
+      <node concept="3clFbS" id="4$78109zOGO" role="3clF47">
+        <node concept="3cpWs6" id="4$78109zOHF" role="3cqZAp">
+          <node concept="10Nm6u" id="4$78109zOId" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4$78109zOGy" role="1B3o_S" />
+      <node concept="3uibUv" id="4$78109zOHa" role="3clF45">
+        <ref role="3uigEE" to="i6n2:73cjAFgjiAG" resolve="Node" />
+      </node>
+      <node concept="37vLTG" id="4$78109zQ09" role="3clF46">
+        <property role="TrG5h" value="json" />
+        <node concept="3uibUv" id="4$78109zQ08" role="1tU5fm">
+          <ref role="3uigEE" to="lhlt:~ObjectNode" resolve="ObjectNode" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="4$78109qMXz" role="1B3o_S" />
   </node>
 </model>
 
