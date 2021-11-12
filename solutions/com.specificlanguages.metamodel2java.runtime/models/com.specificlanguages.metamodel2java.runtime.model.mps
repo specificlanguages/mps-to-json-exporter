@@ -51,9 +51,6 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -154,12 +151,6 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
-    </language>
-    <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
-      <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
-        <child id="1199569906740" name="parameter" index="1bW2Oz" />
-        <child id="1199569916463" name="body" index="1bW5cS" />
-      </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
@@ -643,39 +634,6 @@
     <node concept="2YIFZL" id="4$78109q6Mq" role="jymVt">
       <property role="TrG5h" value="fromJSON" />
       <node concept="3clFbS" id="4$78109q6Mt" role="3clF47">
-        <node concept="3cpWs8" id="4$78109$x4l" role="3cqZAp">
-          <node concept="3cpWsn" id="4$78109$x4r" role="3cpWs9">
-            <property role="TrG5h" value="func" />
-            <node concept="3uibUv" id="4$78109$x4t" role="1tU5fm">
-              <ref role="3uigEE" to="82uw:~Function" resolve="Function" />
-              <node concept="3uibUv" id="4$78109$x8H" role="11_B2D">
-                <ref role="3uigEE" to="lhlt:~ObjectNode" resolve="ObjectNode" />
-              </node>
-              <node concept="3uibUv" id="4$78109$x9t" role="11_B2D">
-                <ref role="3uigEE" node="73cjAFgjiAG" resolve="Node" />
-              </node>
-            </node>
-            <node concept="1bVj0M" id="4$78109$sxS" role="33vP2m">
-              <node concept="3clFbS" id="4$78109$sxT" role="1bW5cS">
-                <node concept="3cpWs6" id="4$78109$tcN" role="3cqZAp">
-                  <node concept="2YIFZM" id="4$78109$sxV" role="3cqZAk">
-                    <ref role="1Pybhc" node="73cjAFgjiAG" resolve="Node" />
-                    <ref role="37wK5l" node="4$78109q6Mq" resolve="fromJSON" />
-                    <node concept="37vLTw" id="4$78109$sxW" role="37wK5m">
-                      <ref role="3cqZAo" node="4$78109$sxX" resolve="json" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="37vLTG" id="4$78109$sxX" role="1bW2Oz">
-                <property role="TrG5h" value="json" />
-                <node concept="3uibUv" id="4$78109$sxY" role="1tU5fm">
-                  <ref role="3uigEE" to="lhlt:~ObjectNode" resolve="ObjectNode" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs6" id="4$78109q7bz" role="3cqZAp">
           <node concept="10Nm6u" id="4$78109q7c0" role="3cqZAk" />
         </node>
