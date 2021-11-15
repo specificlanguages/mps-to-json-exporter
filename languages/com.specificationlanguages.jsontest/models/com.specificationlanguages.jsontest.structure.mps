@@ -95,6 +95,24 @@
     <property role="TrG5h" value="Shape" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3rk7pIKjhFs" role="1TKVEi">
+      <property role="IQ2ns" value="3950815327625747164" />
+      <property role="20kJfa" value="oneReferenvceAtShape" />
+      <ref role="20lvS9" node="5scyyTaayUJ" resolve="Circle" />
+    </node>
+    <node concept="1TJgyj" id="3rk7pIKjhFn" role="1TKVEi">
+      <property role="IQ2ns" value="3950815327625747159" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="manyCirclesAtShape" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5scyyTaayUJ" resolve="Circle" />
+    </node>
+    <node concept="1TJgyj" id="3rk7pIKjhFp" role="1TKVEi">
+      <property role="IQ2ns" value="3950815327625747161" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="oneCirclesAShape" />
+      <ref role="20lvS9" node="5scyyTaayUJ" resolve="Circle" />
+    </node>
     <node concept="1TJgyi" id="28QYoBDyeM1" role="1TKVEl">
       <property role="IQ2nx" value="2465432216755825793" />
       <property role="TrG5h" value="fullName" />

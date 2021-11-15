@@ -45,6 +45,10 @@
       </node>
     </node>
     <node concept="2VgMA2" id="2qhlwWB22_t" role="2VgMA7">
+      <node concept="2V$Bhx" id="4$78109EYHZ" role="1t_9vn">
+        <property role="2V$B1T" value="fd392034-7849-419d-9071-12563d152375" />
+        <property role="2V$B1Q" value="jetbrains.mps.baseLanguage.closures" />
+      </node>
       <node concept="2V$Bhx" id="2qhlwWB22_$" role="1t_9vn">
         <property role="2V$B1T" value="f3061a53-9226-4cc5-a443-f952ceaf5816" />
         <property role="2V$B1Q" value="jetbrains.mps.baseLanguage" />

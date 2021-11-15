@@ -6,7 +6,7 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java" languageLevel="JAVA_8">
+    <facet type="java">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
     <facet planModel="r:d4c45340-7034-41c5-b035-7c2da3e6fcda(com.specificlanguages.metamodel2json.genplan.genplan)" type="generator" />
@@ -16,6 +16,7 @@
     <dependency reexport="false">c8036489-5139-41f2-af1c-e66872018a1b(com.specificationlanguages.jsontest)</dependency>
     <dependency reexport="false">1a98fe9b-4e07-467b-b9a4-0ac2718239fd(com.specificlanguages.metamodel2json.genplan)</dependency>
     <dependency reexport="false">f81274ef-51e9-4fbc-9bcc-505d21a35248(com.specificlanguages.metamodel2java)</dependency>
+    <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:c8036489-5139-41f2-af1c-e66872018a1b:com.specificationlanguages.jsontest" version="0" />
@@ -40,8 +41,12 @@
     <module reference="37ca9e63-a2a3-4038-b64b-816e865c36b1(com.specificlanguages.metamodel2jsonschema)" version="0" />
     <module reference="5a359244-562e-4ae8-9b5e-3383c22a3100(com.specificlanguages.metamodel2jsonschema.sandbox)" version="0" />
     <module reference="fe3cd8c4-8135-4bb1-b98e-132f6b4abcbf(com.specificlanguages.model2jsonreader.generator)" version="0" />
+    <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
+    <module reference="e39e4a59-8cb6-498e-860e-8fa8361c0d90(jetbrains.mps.baseLanguage.scopes)" version="0" />
+    <module reference="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
+    <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
   </dependencyVersions>
 </solution>
 
