@@ -33,7 +33,7 @@
     </language>
   </registry>
   <node concept="2VgMpV" id="2qhlwWB1l7E">
-    <property role="TrG5h" value="Metamodel2JSONanddddhhhffsds" />
+    <property role="TrG5h" value="Metamodel2JSONandJava" />
     <node concept="10T23i" id="2qhlwWB1l7G" role="2VgMA7">
       <ref role="10T23l" to="bkr9:2qhlwWB1l7J" resolve="Metamodel2JavaPlan" />
     </node>
