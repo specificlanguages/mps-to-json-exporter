@@ -13,7 +13,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">39983771-4e9b-401b-a1a9-1da6c777c843(com.fasterxml.jackson)</dependency>
+    <dependency reexport="true">39983771-4e9b-401b-a1a9-1da6c777c843(com.fasterxml.jackson)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />

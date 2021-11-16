@@ -240,6 +240,23 @@
       </node>
     </node>
     <node concept="2tJIrI" id="28QYoBDqi6j" role="jymVt" />
+    <node concept="3clFb_" id="53i08X$CUbn" role="jymVt">
+      <property role="TrG5h" value="roots" />
+      <node concept="3clFbS" id="53i08X$CUbq" role="3clF47">
+        <node concept="3cpWs6" id="53i08X$CUZS" role="3cqZAp">
+          <node concept="37vLTw" id="53i08X$CV0s" role="3cqZAk">
+            <ref role="3cqZAo" node="28QYoBDqh_C" resolve="allRootNodes" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="53i08X$CTK8" role="1B3o_S" />
+      <node concept="3uibUv" id="53i08X$CVpO" role="3clF45">
+        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+        <node concept="3uibUv" id="53i08X$CWeK" role="11_B2D">
+          <ref role="3uigEE" node="73cjAFgjiAG" resolve="Node" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="28QYoBDqmV5" role="jymVt">
       <property role="TrG5h" value="addNode" />
       <node concept="3clFbS" id="28QYoBDqmV8" role="3clF47">
@@ -334,21 +351,9 @@
       </node>
     </node>
     <node concept="2tJIrI" id="28QYoBDqsvJ" role="jymVt" />
-    <node concept="2tJIrI" id="3DosGw5$T8P" role="jymVt" />
     <node concept="3clFb_" id="28QYoBDqsTi" role="jymVt">
       <property role="TrG5h" value="addRoot" />
       <node concept="3clFbS" id="28QYoBDqsTj" role="3clF47">
-        <node concept="3clFbF" id="28QYoBDq$j5" role="3cqZAp">
-          <node concept="2OqwBi" id="28QYoBDq$xU" role="3clFbG">
-            <node concept="Xjq3P" id="28QYoBDq$j3" role="2Oq$k0" />
-            <node concept="liA8E" id="28QYoBDq$El" role="2OqNvi">
-              <ref role="37wK5l" node="28QYoBDqmV5" resolve="addNode" />
-              <node concept="37vLTw" id="28QYoBDq$Jc" role="37wK5m">
-                <ref role="3cqZAo" node="28QYoBDqsTQ" resolve="node" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="28QYoBDq$Oq" role="3cqZAp">
           <node concept="2OqwBi" id="28QYoBDq_ff" role="3clFbG">
             <node concept="2OqwBi" id="28QYoBDq$Pk" role="2Oq$k0">
@@ -378,6 +383,11 @@
         <node concept="TZ5HA" id="3DosGw5$Xb0" role="TZ5H$">
           <node concept="1dT_AC" id="3DosGw5$Xb1" role="1dT_Ay">
             <property role="1dT_AB" value="Add `node` as root node to the model." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="53i08X$CYpe" role="TZ5H$">
+          <node concept="1dT_AC" id="53i08X$CYpf" role="1dT_Ay">
+            <property role="1dT_AB" value="It should also be added using `addNode(...)`." />
           </node>
         </node>
       </node>
