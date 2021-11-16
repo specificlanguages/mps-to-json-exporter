@@ -334,6 +334,7 @@
       </node>
     </node>
     <node concept="2tJIrI" id="28QYoBDqsvJ" role="jymVt" />
+    <node concept="2tJIrI" id="3DosGw5$T8P" role="jymVt" />
     <node concept="3clFb_" id="28QYoBDqsTi" role="jymVt">
       <property role="TrG5h" value="addRoot" />
       <node concept="3clFbS" id="28QYoBDqsTj" role="3clF47">
@@ -371,6 +372,13 @@
         <property role="TrG5h" value="node" />
         <node concept="3uibUv" id="28QYoBDqsTR" role="1tU5fm">
           <ref role="3uigEE" node="73cjAFgjiAG" resolve="Node" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="3DosGw5$XaZ" role="lGtFl">
+        <node concept="TZ5HA" id="3DosGw5$Xb0" role="TZ5H$">
+          <node concept="1dT_AC" id="3DosGw5$Xb1" role="1dT_Ay">
+            <property role="1dT_AB" value="Add `node` as root node to the model." />
+          </node>
         </node>
       </node>
     </node>
@@ -435,6 +443,52 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="2tJIrI" id="3DosGw5$k89" role="jymVt" />
+    <node concept="3clFb_" id="3DosGw5$vrh" role="jymVt">
+      <property role="TrG5h" value="clear" />
+      <node concept="3clFbS" id="3DosGw5$vrk" role="3clF47">
+        <node concept="3clFbF" id="3DosGw5$zcD" role="3cqZAp">
+          <node concept="2OqwBi" id="3DosGw5$zmK" role="3clFbG">
+            <node concept="37vLTw" id="3DosGw5$zcC" role="2Oq$k0">
+              <ref role="3cqZAo" node="28QYoBDq8UI" resolve="allNodes" />
+            </node>
+            <node concept="liA8E" id="3DosGw5$zF3" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Map.clear()" resolve="clear" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3DosGw5$$8p" role="3cqZAp">
+          <node concept="2OqwBi" id="3DosGw5$$Av" role="3clFbG">
+            <node concept="37vLTw" id="3DosGw5$$8n" role="2Oq$k0">
+              <ref role="3cqZAo" node="28QYoBDqh_C" resolve="allRootNodes" />
+            </node>
+            <node concept="liA8E" id="3DosGw5$$X8" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~List.clear()" resolve="clear" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="3DosGw5$rDi" role="1B3o_S" />
+      <node concept="3cqZAl" id="3DosGw5$vqL" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="3DosGw5$DZj" role="jymVt" />
+    <node concept="3clFb_" id="3DosGw5$M8s" role="jymVt">
+      <property role="TrG5h" value="numberOfNodes" />
+      <node concept="3clFbS" id="3DosGw5$M8v" role="3clF47">
+        <node concept="3cpWs6" id="3DosGw5$Qmf" role="3cqZAp">
+          <node concept="2OqwBi" id="3DosGw5$R_6" role="3cqZAk">
+            <node concept="37vLTw" id="3DosGw5$QR$" role="2Oq$k0">
+              <ref role="3cqZAo" node="28QYoBDq8UI" resolve="allNodes" />
+            </node>
+            <node concept="liA8E" id="3DosGw5$Spo" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Map.size()" resolve="size" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="3DosGw5$Ict" role="1B3o_S" />
+      <node concept="10Oyi0" id="3DosGw5$IAF" role="3clF45" />
     </node>
     <node concept="3Tm1VV" id="73cjAFgji$j" role="1B3o_S" />
   </node>
