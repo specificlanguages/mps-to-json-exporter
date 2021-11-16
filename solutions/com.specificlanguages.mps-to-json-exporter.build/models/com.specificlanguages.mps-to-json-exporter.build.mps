@@ -481,11 +481,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="53i08X$G$0J" role="3bR37C">
-          <node concept="3bR9La" id="53i08X$G$0K" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
-          </node>
-        </node>
       </node>
       <node concept="1E1JtD" id="53i08X$Lfg6" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -685,11 +680,51 @@
       <node concept="1E1JtA" id="53i08X$Lfsu" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="com.specificlanguages.metamodel2json.genplan" />
+        <property role="3LESm3" value="1a98fe9b-4e07-467b-b9a4-0ac2718239fd" />
         <node concept="55IIr" id="53i08X$Lfsx" role="3LF7KH">
           <node concept="2Ry0Ak" id="53i08X$Lfv1" role="iGT6I">
             <property role="2Ry0Am" value="solutions" />
             <node concept="2Ry0Ak" id="53i08X$Lf$4" role="2Ry0An">
               <property role="2Ry0Am" value="com.specificlanguages.metamodel2json.genplan" />
+              <node concept="2Ry0Ak" id="ksadEtOQ23" role="2Ry0An">
+                <property role="2Ry0Am" value="com.specificlanguages.metamodel2json.genplan.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="ksadEtOQ2C" role="3bR37C">
+          <node concept="3bR9La" id="ksadEtOQ2D" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3HV74$ebibC" resolve="jetbrains.mps.lang.text" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="ksadEtOQ2E" role="3bR37C">
+          <node concept="3bR9La" id="ksadEtOQ2F" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6L9O" resolve="jetbrains.mps.lang.smodel" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="ksadEtOQ2G" role="3bR37C">
+          <node concept="3bR9La" id="ksadEtOQ2H" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:307DWrMiIBc" resolve="jetbrains.mps.lang.generator.plan" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="ksadEtOQ2M" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="ksadEtOQ2N" role="1HemKq">
+            <node concept="55IIr" id="ksadEtOQ2I" role="3LXTmr">
+              <node concept="2Ry0Ak" id="ksadEtOQ2J" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="ksadEtOQ2K" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.specificlanguages.metamodel2json.genplan" />
+                  <node concept="2Ry0Ak" id="ksadEtOQ2L" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="ksadEtOQ2O" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
         </node>
