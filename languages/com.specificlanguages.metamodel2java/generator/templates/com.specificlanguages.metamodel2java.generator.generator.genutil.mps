@@ -18,11 +18,10 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="btm1" ref="b0f8641f-bd77-4421-8425-30d9088a82f7/java:org.apache.commons.lang3(org.apache.commons/)" />
-    <import index="lhlt" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.fasterxml.jackson.databind.node(com.fasterxml.jackson/)" />
-    <import index="7k8f" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.fasterxml.jackson.databind(com.fasterxml.jackson/)" />
     <import index="i6n2" ref="r:486b93c4-459c-4df1-9101-40406e19116b(com.specificlanguages.metamodel2java.runtime.model)" />
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
+    <import index="zjt0" ref="de7b3dd2-00f3-408b-b4a5-72c5facff2d9/i:f040404(com.specificlanguages.dependencies/com.specificlanguages.dependencies@descriptor)" />
+    <import index="btm1" ref="de7b3dd2-00f3-408b-b4a5-72c5facff2d9/java:org.apache.commons.lang3(com.specificlanguages.dependencies/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -711,8 +710,8 @@
               <property role="Xl_RC" value="get" />
             </node>
             <node concept="2YIFZM" id="28QYoBDobvp" role="3uHU7w">
-              <ref role="37wK5l" to="btm1:~StringUtils.capitalize(java.lang.String)" resolve="capitalize" />
               <ref role="1Pybhc" to="btm1:~StringUtils" resolve="StringUtils" />
+              <ref role="37wK5l" to="btm1:~StringUtils.capitalize(java.lang.String)" resolve="capitalize" />
               <node concept="2OqwBi" id="1hpma8peyl6" role="37wK5m">
                 <node concept="37vLTw" id="1hpma8peyl7" role="2Oq$k0">
                   <ref role="3cqZAo" node="1hpma8peylb" resolve="property" />
@@ -744,8 +743,8 @@
               <property role="Xl_RC" value="set" />
             </node>
             <node concept="2YIFZM" id="28QYoBDobG$" role="3uHU7w">
-              <ref role="37wK5l" to="btm1:~StringUtils.capitalize(java.lang.String)" resolve="capitalize" />
               <ref role="1Pybhc" to="btm1:~StringUtils" resolve="StringUtils" />
+              <ref role="37wK5l" to="btm1:~StringUtils.capitalize(java.lang.String)" resolve="capitalize" />
               <node concept="2OqwBi" id="28QYoBDobG_" role="37wK5m">
                 <node concept="37vLTw" id="28QYoBDobGA" role="2Oq$k0">
                   <ref role="3cqZAo" node="1hpma8peyMC" resolve="property" />
@@ -804,8 +803,8 @@
               <property role="Xl_RC" value="set" />
             </node>
             <node concept="2YIFZM" id="28QYoBDobPb" role="3uHU7w">
-              <ref role="37wK5l" to="btm1:~StringUtils.capitalize(java.lang.String)" resolve="capitalize" />
               <ref role="1Pybhc" to="btm1:~StringUtils" resolve="StringUtils" />
+              <ref role="37wK5l" to="btm1:~StringUtils.capitalize(java.lang.String)" resolve="capitalize" />
               <node concept="2OqwBi" id="28QYoBDobPc" role="37wK5m">
                 <node concept="37vLTw" id="28QYoBDobVL" role="2Oq$k0">
                   <ref role="3cqZAo" node="1hpma8pexGa" resolve="link" />
@@ -837,8 +836,8 @@
               <property role="Xl_RC" value="get" />
             </node>
             <node concept="2YIFZM" id="28QYoBDoc43" role="3uHU7w">
-              <ref role="37wK5l" to="btm1:~StringUtils.capitalize(java.lang.String)" resolve="capitalize" />
               <ref role="1Pybhc" to="btm1:~StringUtils" resolve="StringUtils" />
+              <ref role="37wK5l" to="btm1:~StringUtils.capitalize(java.lang.String)" resolve="capitalize" />
               <node concept="2OqwBi" id="28QYoBDoc44" role="37wK5m">
                 <node concept="37vLTw" id="28QYoBDoc75" role="2Oq$k0">
                   <ref role="3cqZAo" node="28QYoBDo0tM" resolve="link" />
@@ -870,8 +869,8 @@
               <property role="Xl_RC" value="addTo" />
             </node>
             <node concept="2YIFZM" id="28QYoBDocl2" role="3uHU7w">
-              <ref role="37wK5l" to="btm1:~StringUtils.capitalize(java.lang.String)" resolve="capitalize" />
               <ref role="1Pybhc" to="btm1:~StringUtils" resolve="StringUtils" />
+              <ref role="37wK5l" to="btm1:~StringUtils.capitalize(java.lang.String)" resolve="capitalize" />
               <node concept="2OqwBi" id="28QYoBDocl3" role="37wK5m">
                 <node concept="37vLTw" id="28QYoBDocrq" role="2Oq$k0">
                   <ref role="3cqZAo" node="1hpma8pe$rZ" resolve="link" />
@@ -1057,8 +1056,8 @@
       <node concept="3clFbS" id="3DosGw5paCX" role="3clF47">
         <node concept="3clFbJ" id="3DosGw5pdFR" role="3cqZAp">
           <node concept="2YIFZM" id="3DosGw5pQEs" role="3clFbw">
-            <ref role="37wK5l" to="btm1:~ArrayUtils.contains(java.lang.Object[],java.lang.Object)" resolve="contains" />
             <ref role="1Pybhc" to="btm1:~ArrayUtils" resolve="ArrayUtils" />
+            <ref role="37wK5l" to="btm1:~ArrayUtils.contains(java.lang.Object[],java.lang.Object)" resolve="contains" />
             <node concept="37vLTw" id="3DosGw5pR4m" role="37wK5m">
               <ref role="3cqZAo" node="3DosGw5paUt" resolve="keywords" />
             </node>

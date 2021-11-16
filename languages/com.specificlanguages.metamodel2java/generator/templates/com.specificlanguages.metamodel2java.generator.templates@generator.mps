@@ -23,12 +23,13 @@
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
     <import index="9izy" ref="r:cda77d84-1618-4684-8a7c-02f14f35249f(com.specificlanguages.metamodel2java.behavior)" />
     <import index="gunn" ref="r:bf9fd59a-6dce-44cd-8943-d1da7c0505be(com.specificlanguages.metamodel2java.generator.generator.genutil)" />
-    <import index="lhlt" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.fasterxml.jackson.databind.node(com.fasterxml.jackson/)" />
-    <import index="7k8f" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.fasterxml.jackson.databind(com.fasterxml.jackson/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
+    <import index="zjt0" ref="de7b3dd2-00f3-408b-b4a5-72c5facff2d9/i:f040404(com.specificlanguages.dependencies/com.specificlanguages.dependencies@descriptor)" />
+    <import index="lhlt" ref="de7b3dd2-00f3-408b-b4a5-72c5facff2d9/java:com.fasterxml.jackson.databind.node(com.specificlanguages.dependencies/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpcn" ref="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
+    <import index="7k8f" ref="de7b3dd2-00f3-408b-b4a5-72c5facff2d9/java:com.fasterxml.jackson.databind(com.specificlanguages.dependencies/)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -3172,7 +3173,7 @@
           <node concept="3cpWs8" id="4$78109A9JE" role="3cqZAp">
             <node concept="3cpWsn" id="4$78109A9JF" role="3cpWs9">
               <property role="TrG5h" value="localLinkField" />
-              <node concept="3uibUv" id="4$78109A9JG" role="1tU5fm">
+              <node concept="3uibUv" id="2qMfeKXEXmp" role="1tU5fm">
                 <ref role="3uigEE" to="lhlt:~ArrayNode" resolve="ArrayNode" />
               </node>
               <node concept="2YIFZM" id="4$78109A9JH" role="33vP2m">
@@ -3295,7 +3296,7 @@
                 <node concept="37vLTw" id="4$78109A9Kn" role="2Oq$k0">
                   <ref role="3cqZAo" node="4$78109A9JF" resolve="localLinkField" />
                 </node>
-                <node concept="liA8E" id="4$78109A9Ko" role="2OqNvi">
+                <node concept="liA8E" id="2qMfeKXEYkU" role="2OqNvi">
                   <ref role="37wK5l" to="lhlt:~ArrayNode.size()" resolve="size" />
                 </node>
               </node>
@@ -3404,7 +3405,7 @@
         <node concept="3cqZAl" id="4$78109AMDt" role="3clF45" />
         <node concept="37vLTG" id="4$78109A9FQ" role="3clF46">
           <property role="TrG5h" value="json" />
-          <node concept="3uibUv" id="4$78109A9FR" role="1tU5fm">
+          <node concept="3uibUv" id="2qMfeKXEWkN" role="1tU5fm">
             <ref role="3uigEE" to="lhlt:~ObjectNode" resolve="ObjectNode" />
           </node>
         </node>
@@ -4011,7 +4012,7 @@
       </node>
       <node concept="37vLTG" id="4$78109rnrS" role="3clF46">
         <property role="TrG5h" value="json" />
-        <node concept="3uibUv" id="4$78109ro5V" role="1tU5fm">
+        <node concept="3uibUv" id="2qMfeKXF072" role="1tU5fm">
           <ref role="3uigEE" to="lhlt:~ObjectNode" resolve="ObjectNode" />
         </node>
       </node>

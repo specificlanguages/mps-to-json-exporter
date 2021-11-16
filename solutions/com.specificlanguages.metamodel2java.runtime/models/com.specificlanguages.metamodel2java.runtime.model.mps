@@ -10,9 +10,10 @@
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="7k8f" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.fasterxml.jackson.databind(com.fasterxml.jackson/)" />
-    <import index="lhlt" ref="39983771-4e9b-401b-a1a9-1da6c777c843/java:com.fasterxml.jackson.databind.node(com.fasterxml.jackson/)" />
     <import index="82uw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.function(JDK/)" />
+    <import index="zjt0" ref="de7b3dd2-00f3-408b-b4a5-72c5facff2d9/i:f040404(com.specificlanguages.dependencies/com.specificlanguages.dependencies@descriptor)" />
+    <import index="7k8f" ref="de7b3dd2-00f3-408b-b4a5-72c5facff2d9/java:com.fasterxml.jackson.databind(com.specificlanguages.dependencies/)" />
+    <import index="lhlt" ref="de7b3dd2-00f3-408b-b4a5-72c5facff2d9/java:com.fasterxml.jackson.databind.node(com.specificlanguages.dependencies/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -700,7 +701,7 @@
       <node concept="3cqZAl" id="4$78109APKO" role="3clF45" />
       <node concept="37vLTG" id="4$78109AmYh" role="3clF46">
         <property role="TrG5h" value="json" />
-        <node concept="3uibUv" id="4$78109AmYi" role="1tU5fm">
+        <node concept="3uibUv" id="2qMfeKXGiLJ" role="1tU5fm">
           <ref role="3uigEE" to="lhlt:~ObjectNode" resolve="ObjectNode" />
         </node>
       </node>
@@ -905,7 +906,7 @@
         <node concept="3cpWs8" id="38qCJUjYFCw" role="3cqZAp">
           <node concept="3cpWsn" id="38qCJUjYFCx" role="3cpWs9">
             <property role="TrG5h" value="resultNode" />
-            <node concept="3uibUv" id="38qCJUjYFCy" role="1tU5fm">
+            <node concept="3uibUv" id="2qMfeKXC532" role="1tU5fm">
               <ref role="3uigEE" to="7k8f:~JsonNode" resolve="JsonNode" />
             </node>
             <node concept="2OqwBi" id="38qCJUjYGtP" role="33vP2m">
@@ -965,7 +966,7 @@
       </node>
       <node concept="37vLTG" id="38qCJUjYF_Y" role="3clF46">
         <property role="TrG5h" value="json" />
-        <node concept="3uibUv" id="38qCJUjYF_X" role="1tU5fm">
+        <node concept="3uibUv" id="2qMfeKXC7GJ" role="1tU5fm">
           <ref role="3uigEE" to="lhlt:~ObjectNode" resolve="ObjectNode" />
         </node>
       </node>
