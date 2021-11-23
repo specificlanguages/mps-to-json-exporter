@@ -3,10 +3,10 @@
   <models>
     <modelRoot contentPath="${module}/lib" type="java_classes">
       <sourceRoot location="." />
-      <sourceRoot location="jackson-annotations-2.10.4.jar" />
-      <sourceRoot location="jackson-core-2.10.4.jar" />
-      <sourceRoot location="jackson-databind-2.10.4.jar" />
-      <sourceRoot location="commons-lang3-3.12.0.jar" />
+      <sourceRoot location="jackson-annotations.jar" />
+      <sourceRoot location="jackson-core.jar" />
+      <sourceRoot location="jackson-databind.jar" />
+      <sourceRoot location="commons-lang3.jar" />
     </modelRoot>
     <modelRoot contentPath="${module}/lib/commons-lang3-3.12.0.jar!/" type="java_classes">
       <sourceRoot location="org" />
@@ -19,10 +19,10 @@
     </facet>
   </facets>
   <stubModelEntries>
-    <stubModelEntry path="${module}/lib/jackson-annotations-2.10.4.jar" />
-    <stubModelEntry path="${module}/lib/jackson-core-2.10.4.jar" />
-    <stubModelEntry path="${module}/lib/jackson-databind-2.10.4.jar" />
-    <stubModelEntry path="${module}/lib/commons-lang3-3.12.0.jar" />
+    <stubModelEntry path="${module}/lib/jackson-annotations.jar" />
+    <stubModelEntry path="${module}/lib/jackson-core.jar" />
+    <stubModelEntry path="${module}/lib/jackson-databind.jar" />
+    <stubModelEntry path="${module}/lib/commons-lang3.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

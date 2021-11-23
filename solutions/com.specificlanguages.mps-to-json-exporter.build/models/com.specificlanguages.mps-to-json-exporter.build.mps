@@ -813,17 +813,17 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2qMfeKXHtE8" role="3bR37C">
-          <node concept="1BurEX" id="2qMfeKXHtE9" role="1SiIV1">
-            <node concept="55IIr" id="2qMfeKXHtE3" role="1BurEY">
-              <node concept="2Ry0Ak" id="2qMfeKXHtE4" role="iGT6I">
+        <node concept="1SiIV0" id="o4g_govAES" role="3bR37C">
+          <node concept="1BurEX" id="o4g_govAET" role="1SiIV1">
+            <node concept="55IIr" id="o4g_govAEN" role="1BurEY">
+              <node concept="2Ry0Ak" id="o4g_govAEO" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="2qMfeKXHtE5" role="2Ry0An">
+                <node concept="2Ry0Ak" id="o4g_govAEP" role="2Ry0An">
                   <property role="2Ry0Am" value="com.specificlanguages.dependencies" />
-                  <node concept="2Ry0Ak" id="2qMfeKXHtE6" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="o4g_govAEQ" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="2qMfeKXHtE7" role="2Ry0An">
-                      <property role="2Ry0Am" value="jackson-annotations-2.10.4.jar" />
+                    <node concept="2Ry0Ak" id="o4g_govAER" role="2Ry0An">
+                      <property role="2Ry0Am" value="jackson-annotations.jar" />
                     </node>
                   </node>
                 </node>
@@ -831,17 +831,17 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2qMfeKXHtEf" role="3bR37C">
-          <node concept="1BurEX" id="2qMfeKXHtEg" role="1SiIV1">
-            <node concept="55IIr" id="2qMfeKXHtEa" role="1BurEY">
-              <node concept="2Ry0Ak" id="2qMfeKXHtEb" role="iGT6I">
+        <node concept="1SiIV0" id="o4g_govAEZ" role="3bR37C">
+          <node concept="1BurEX" id="o4g_govAF0" role="1SiIV1">
+            <node concept="55IIr" id="o4g_govAEU" role="1BurEY">
+              <node concept="2Ry0Ak" id="o4g_govAEV" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="2qMfeKXHtEc" role="2Ry0An">
+                <node concept="2Ry0Ak" id="o4g_govAEW" role="2Ry0An">
                   <property role="2Ry0Am" value="com.specificlanguages.dependencies" />
-                  <node concept="2Ry0Ak" id="2qMfeKXHtEd" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="o4g_govAEX" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="2qMfeKXHtEe" role="2Ry0An">
-                      <property role="2Ry0Am" value="jackson-core-2.10.4.jar" />
+                    <node concept="2Ry0Ak" id="o4g_govAEY" role="2Ry0An">
+                      <property role="2Ry0Am" value="jackson-core.jar" />
                     </node>
                   </node>
                 </node>
@@ -849,17 +849,17 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2qMfeKXHtEm" role="3bR37C">
-          <node concept="1BurEX" id="2qMfeKXHtEn" role="1SiIV1">
-            <node concept="55IIr" id="2qMfeKXHtEh" role="1BurEY">
-              <node concept="2Ry0Ak" id="2qMfeKXHtEi" role="iGT6I">
+        <node concept="1SiIV0" id="o4g_govAF6" role="3bR37C">
+          <node concept="1BurEX" id="o4g_govAF7" role="1SiIV1">
+            <node concept="55IIr" id="o4g_govAF1" role="1BurEY">
+              <node concept="2Ry0Ak" id="o4g_govAF2" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="2qMfeKXHtEj" role="2Ry0An">
+                <node concept="2Ry0Ak" id="o4g_govAF3" role="2Ry0An">
                   <property role="2Ry0Am" value="com.specificlanguages.dependencies" />
-                  <node concept="2Ry0Ak" id="2qMfeKXHtEk" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="o4g_govAF4" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="2qMfeKXHtEl" role="2Ry0An">
-                      <property role="2Ry0Am" value="jackson-databind-2.10.4.jar" />
+                    <node concept="2Ry0Ak" id="o4g_govAF5" role="2Ry0An">
+                      <property role="2Ry0Am" value="jackson-databind.jar" />
                     </node>
                   </node>
                 </node>
@@ -867,17 +867,17 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2qMfeKXHtEt" role="3bR37C">
-          <node concept="1BurEX" id="2qMfeKXHtEu" role="1SiIV1">
-            <node concept="55IIr" id="2qMfeKXHtEo" role="1BurEY">
-              <node concept="2Ry0Ak" id="2qMfeKXHtEp" role="iGT6I">
+        <node concept="1SiIV0" id="o4g_govAFd" role="3bR37C">
+          <node concept="1BurEX" id="o4g_govAFe" role="1SiIV1">
+            <node concept="55IIr" id="o4g_govAF8" role="1BurEY">
+              <node concept="2Ry0Ak" id="o4g_govAF9" role="iGT6I">
                 <property role="2Ry0Am" value="solutions" />
-                <node concept="2Ry0Ak" id="2qMfeKXHtEq" role="2Ry0An">
+                <node concept="2Ry0Ak" id="o4g_govAFa" role="2Ry0An">
                   <property role="2Ry0Am" value="com.specificlanguages.dependencies" />
-                  <node concept="2Ry0Ak" id="2qMfeKXHtEr" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="o4g_govAFb" role="2Ry0An">
                     <property role="2Ry0Am" value="lib" />
-                    <node concept="2Ry0Ak" id="2qMfeKXHtEs" role="2Ry0An">
-                      <property role="2Ry0Am" value="commons-lang3-3.12.0.jar" />
+                    <node concept="2Ry0Ak" id="o4g_govAFc" role="2Ry0An">
+                      <property role="2Ry0Am" value="commons-lang3.jar" />
                     </node>
                   </node>
                 </node>

@@ -1,5 +1,5 @@
 plugins {
-    id("com.specificlanguages.mps") version "1.1.1"
+    id("com.specificlanguages.mps") version "1.2.0"
     `maven-publish`
 }
 
@@ -10,6 +10,14 @@ repositories {
 
 dependencies {
     "mps"("com.jetbrains:mps:2020.3.5")
+}
+
+stubs {
+    register("stubs") {
+        destinationDir("solutions/com.specificlanguages.dependencies/lib")
+        dependency("org.apache.commons:commons-lang3:3.12.0")
+        dependency("com.fasterxml.jackson.core:jackson-databind:2.10.4")
+    }
 }
 
 group = "com.specificlanguages"
