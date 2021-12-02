@@ -9,6 +9,12 @@ Create an empty model, use language `com.specificlanguages.metamodel2jsonschema`
 In the export configuration specify the schema ID and the languages to export. You can also specify individual concepts.
 Do not specify enums, they are ignored.
 
+You can specify properties to ignore, they work for properties, children and references.
+
+You can specify a class that will be used during preprocessing of the generator. 
+The intention is that you can add NodeAttributees to nodes, and that they will than be exported as well.
+This can be used to get derived information, which is not in the model itself, to the export.
+
 Now you can build the model or preview the generated text.
 
 # JSON Schema Output Notes
@@ -34,3 +40,18 @@ not known at the time of its generation.
 **Node structure:** each node is represented by an object that contains at least a field named `$id` with the node ID,
 and a field named `$concept` with the node's concept. In addition, each node object will contain properties and links (
 child and reference).
+
+**Additional Properties** The Schema sets _additionalProperties_ to _false_ to make the validation as strict as possible.
+
+**Required** As of now no property is required in the Schama.
+
+
+# Exporting MPS Root as JSON
+
+Define a model2json root:
+-  specify the root that you want to export to JSON.
+- specify the schema-export that was used to export the corresponding JSON schema, 
+  this will ensure that the exported JSON can be validated by the Schema, e.g. ignored properties are taken into
+  account in both the schema and the JSON.
+  
+The JSON 

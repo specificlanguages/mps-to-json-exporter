@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectLibraryManager">
+    <option name="libraries">
+      <map>
+        <entry key="commons">
+          <value>
+            <Library>
+              <option name="name" value="commons" />
+              <option name="path" value="${platform_lib}/commons-lang3-3.10.jar" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="jackson">
+          <value>
+            <Library>
+              <option name="name" value="jackson" />
+              <option name="path" value="${platform_lib}/jackson-core-2.11.0.jar" />
+            </Library>
+          </value>
+        </entry>
+        <entry key="jackson-databind">
+          <value>
+            <Library>
+              <option name="name" value="jackson-databind" />
+              <option name="path" value="${platform_lib}/jackson-databind-2.11.0.jar" />
+            </Library>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
