@@ -23,7 +23,7 @@ stubs {
 }
 
 group = "com.specificlanguages"
-version = "0.0.2"
+version = "0.0.3"
 
 publishing {
     publications {
