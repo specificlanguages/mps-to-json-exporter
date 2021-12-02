@@ -254,6 +254,53 @@
     </node>
     <node concept="2G$12M" id="11l7BDuSXay" role="3989C9">
       <property role="TrG5h" value="mps-to-json-exporter" />
+      <node concept="1E1JtA" id="1SXfBko7B8" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="com.specificlanguages.mps-to-json-exporter.build" />
+        <property role="3LESm3" value="1f1b1ad4-6184-4b2f-8ba2-7af5cf62dbdd" />
+        <node concept="55IIr" id="1SXfBko7Bb" role="3LF7KH">
+          <node concept="2Ry0Ak" id="1SXfBko7Fr" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="1SXfBko7G8" role="2Ry0An">
+              <property role="2Ry0Am" value="com.specificlanguages.mps-to-json-exporter.build" />
+              <node concept="2Ry0Ak" id="1SXfBko7GP" role="2Ry0An">
+                <property role="2Ry0Am" value="com.specificlanguages.mps-to-json-exporter.build.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1SXfBko7Hb" role="3bR37C">
+          <node concept="3bR9La" id="1SXfBko7Hc" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="1SXfBko7Hd" role="3bR37C">
+          <node concept="3bR9La" id="1SXfBko7He" role="1SiIV1">
+            <ref role="3bR37D" node="2qMfeKXHtAf" resolve="com.specificlanguages.dependencies" />
+          </node>
+        </node>
+        <node concept="1BupzO" id="1SXfBko7Hj" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="1SXfBko7Hk" role="1HemKq">
+            <node concept="55IIr" id="1SXfBko7Hf" role="3LXTmr">
+              <node concept="2Ry0Ak" id="1SXfBko7Hg" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="1SXfBko7Hh" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.specificlanguages.mps-to-json-exporter.build" />
+                  <node concept="2Ry0Ak" id="1SXfBko7Hi" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="1SXfBko7Hl" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtD" id="11l7BDuSXar" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="com.specificlanguages.json" />
