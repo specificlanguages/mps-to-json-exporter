@@ -3,7 +3,7 @@
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="7ab1a6fa-0a11-4b95-9e48-75f363d6cb00" name="jetbrains.mps.lang.generator.plan" version="1" />
   </languages>
   <imports>
@@ -36,7 +36,7 @@
   <node concept="2VgMpV" id="3DosGw5dVru">
     <property role="TrG5h" value="Metamodel2JSONandJava" />
     <node concept="10T23i" id="3DosGw5dVrv" role="2VgMA7">
-      <ref role="10T23l" to="bkr9:2qhlwWB1l7J" resolve="Metamodel2JavaPlan" />
+      <ref role="10T23l" to="bkr9:2qhlwWB1l7J" resolve="Metamodel2JavaPlan111sddedd" />
     </node>
     <node concept="2VgMA2" id="3DosGw5dVrw" role="2VgMA7">
       <node concept="2V$Bhx" id="3DosGw5dVrx" role="1t_9vn">

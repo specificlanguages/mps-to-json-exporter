@@ -9,14 +9,16 @@ repositories {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:2020.3.5")
+    "mps"("com.jetbrains:mps:2021.1.3")
 }
 
 stubs {
     register("stubs") {
         destinationDir("solutions/com.specificlanguages.dependencies/lib")
-        dependency("org.apache.commons:commons-lang3:3.12.0")
-        dependency("com.fasterxml.jackson.core:jackson-databind:2.10.4")
+
+        // These versions are used by MPS 2021.1.3
+        dependency("org.apache.commons:commons-lang3:3.10")
+        dependency("com.fasterxml.jackson.core:jackson-databind:2.12.0")
     }
 }
 

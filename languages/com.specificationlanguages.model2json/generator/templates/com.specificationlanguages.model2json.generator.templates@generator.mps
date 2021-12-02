@@ -4,7 +4,7 @@
   <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="f3f42ddf-d692-4c29-90fb-7360196f01ab" name="com.specificlanguages.json" version="0" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
@@ -302,7 +302,7 @@
       </concept>
       <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
       </concept>
       <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
         <child id="1145567471833" name="createdType" index="2T96Bj" />
@@ -1593,7 +1593,9 @@
               <node concept="2OqwBi" id="2qhlwWBkdgM" role="2Oq$k0">
                 <node concept="1Q6Npb" id="2qhlwWBkdgN" role="2Oq$k0" />
                 <node concept="2RRcyG" id="2qhlwWBkdgO" role="2OqNvi">
-                  <ref role="2RRcyH" to="tt1v:s0RM0tcGab" resolve="Model2Json" />
+                  <node concept="chp4Y" id="6NGW$RGODtI" role="3MHsoP">
+                    <ref role="cht4Q" to="tt1v:s0RM0tcGab" resolve="Model2Json" />
+                  </node>
                 </node>
               </node>
               <node concept="1uHKPH" id="2qhlwWBkdgP" role="2OqNvi" />
