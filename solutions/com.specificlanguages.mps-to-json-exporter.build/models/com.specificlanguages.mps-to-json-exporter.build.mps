@@ -181,34 +181,27 @@
       </node>
     </node>
     <node concept="1l3spV" id="11l7BDuSXaK" role="1l3spN">
-      <node concept="398223" id="2qMfeKXJvx1" role="39821P">
-        <node concept="m$_wl" id="2qMfeKXJ_SY" role="39821P">
-          <ref role="m_rDy" node="11l7BDuSXaz" resolve="com.specificlanguages.mps2json" />
-          <node concept="pUk6x" id="2qMfeKXJ_Uf" role="pUk7w" />
-          <node concept="398223" id="2qMfeKXJAVI" role="39821P">
-            <node concept="3_J27D" id="2qMfeKXJAVJ" role="Nbhlr">
-              <node concept="3Mxwew" id="2qMfeKXJAW6" role="3MwsjC">
-                <property role="3MwjfP" value="libs" />
-              </node>
+      <node concept="m$_wl" id="2qMfeKXJ_SY" role="39821P">
+        <ref role="m_rDy" node="11l7BDuSXaz" resolve="com.specificlanguages.mps2json" />
+        <node concept="pUk6x" id="2qMfeKXJ_Uf" role="pUk7w" />
+        <node concept="398223" id="2qMfeKXJAVI" role="39821P">
+          <node concept="3_J27D" id="2qMfeKXJAVJ" role="Nbhlr">
+            <node concept="3Mxwew" id="2qMfeKXJAW6" role="3MwsjC">
+              <property role="3MwjfP" value="libs" />
             </node>
-            <node concept="2HvfSZ" id="2qMfeKXJAW8" role="39821P">
-              <node concept="55IIr" id="2qMfeKXJAW9" role="2HvfZ0">
-                <node concept="2Ry0Ak" id="2qMfeKXJAWz" role="iGT6I">
-                  <property role="2Ry0Am" value="solutions" />
-                  <node concept="2Ry0Ak" id="2qMfeKXJAWC" role="2Ry0An">
-                    <property role="2Ry0Am" value="com.specificlanguages.dependencies" />
-                    <node concept="2Ry0Ak" id="2qMfeKXJAWH" role="2Ry0An">
-                      <property role="2Ry0Am" value="lib" />
-                    </node>
+          </node>
+          <node concept="2HvfSZ" id="2qMfeKXJAW8" role="39821P">
+            <node concept="55IIr" id="2qMfeKXJAW9" role="2HvfZ0">
+              <node concept="2Ry0Ak" id="2qMfeKXJAWz" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="2qMfeKXJAWC" role="2Ry0An">
+                  <property role="2Ry0Am" value="com.specificlanguages.dependencies" />
+                  <node concept="2Ry0Ak" id="2qMfeKXJAWH" role="2Ry0An">
+                    <property role="2Ry0Am" value="lib" />
                   </node>
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3_J27D" id="2qMfeKXJvx4" role="Nbhlr">
-          <node concept="3Mxwew" id="2qMfeKXJvyz" role="3MwsjC">
-            <property role="3MwjfP" value="plugin" />
           </node>
         </node>
       </node>
