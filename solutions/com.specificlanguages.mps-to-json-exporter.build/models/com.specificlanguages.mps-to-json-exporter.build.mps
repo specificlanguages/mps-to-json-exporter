@@ -231,6 +231,9 @@
       <node concept="m$_yC" id="11l7BDuSXaD" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
+      <node concept="m$_yC" id="1oDLIwts6sj" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
+      </node>
       <node concept="3_J27D" id="11l7BDuSXaE" role="m_cZH">
         <node concept="3Mxwew" id="11l7BDuSXaF" role="3MwsjC">
           <property role="3MwjfP" value="mps-to-json-exporter" />
