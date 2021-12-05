@@ -34,9 +34,9 @@
     </language>
   </registry>
   <node concept="2VgMpV" id="3DosGw5dVru">
-    <property role="TrG5h" value="Metamodel2JSONandJava" />
+    <property role="TrG5h" value="Metamodel2JsonAndJava" />
     <node concept="10T23i" id="3DosGw5dVrv" role="2VgMA7">
-      <ref role="10T23l" to="bkr9:2qhlwWB1l7J" resolve="Metamodel2JavaPlan111sddedd" />
+      <ref role="10T23l" to="bkr9:2qhlwWB1l7J" resolve="Metamodel2Java" />
     </node>
     <node concept="2VgMA2" id="3DosGw5dVrw" role="2VgMA7">
       <node concept="2V$Bhx" id="3DosGw5dVrx" role="1t_9vn">

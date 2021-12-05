@@ -30,7 +30,6 @@
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
-      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="nn" index="2tJIrI" />
       <concept id="1188220165133" name="jetbrains.mps.baseLanguage.structure.ArrayLiteral" flags="nn" index="2BsdOp">
         <child id="1188220173759" name="item" index="2BsfMF" />
@@ -53,9 +52,6 @@
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
@@ -304,24 +300,10 @@
             </node>
             <node concept="2k5nB$" id="28QYoBDv78j" role="2OqNvi">
               <node concept="Xl_RD" id="28QYoBDv7cn" role="2k5Stb">
-                <property role="Xl_RC" value="INCORRECT CLASSIFIER IN singular link declaration" />
+                <property role="Xl_RC" value="Unsupported target concept in singular link declaration" />
               </node>
               <node concept="37vLTw" id="28QYoBDv7gF" role="2k6f33">
                 <ref role="3cqZAo" node="28QYoBDu44U" resolve="link" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="28QYoBDp9dl" role="3cqZAp">
-          <node concept="2OqwBi" id="28QYoBDp9dm" role="3clFbG">
-            <node concept="10M0yZ" id="28QYoBDp9dn" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="28QYoBDp9do" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-              <node concept="Xl_RD" id="28QYoBDp9dp" role="37wK5m">
-                <property role="Xl_RC" value="INCORRECT CLASSIFIER IN singular link declaration" />
               </node>
             </node>
           </node>

@@ -28,7 +28,7 @@
     </language>
   </registry>
   <node concept="2VgMpV" id="2qhlwWB3thX">
-    <property role="TrG5h" value="Modl2Jsonplan" />
+    <property role="TrG5h" value="Model2JsonPlan" />
     <node concept="2VgMA2" id="2qhlwWB3thZ" role="2VgMA7">
       <node concept="2V$Bhx" id="2NO1SZtntVu" role="1t_9vn">
         <property role="2V$B1T" value="c72bb5ed-7d2b-4e68-8d06-5f02045d0bcc" />
@@ -37,7 +37,7 @@
     </node>
   </node>
   <node concept="2VgMpV" id="2qhlwWB1l7J">
-    <property role="TrG5h" value="Metamodel2JavaPlan111sddedd" />
+    <property role="TrG5h" value="Metamodel2Java" />
     <node concept="2VgMA2" id="2qhlwWB1l8a" role="2VgMA7">
       <node concept="2V$Bhx" id="73cjAFgjm7p" role="1t_9vn">
         <property role="2V$B1T" value="f81274ef-51e9-4fbc-9bcc-505d21a35248" />

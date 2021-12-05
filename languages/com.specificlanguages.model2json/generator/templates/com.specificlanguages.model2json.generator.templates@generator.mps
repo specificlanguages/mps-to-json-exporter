@@ -210,6 +210,7 @@
       </concept>
       <concept id="1169670156577" name="jetbrains.mps.lang.generator.structure.GeneratorMessage" flags="lg" index="1lLz0L">
         <property id="1169670173015" name="messageText" index="1lLB17" />
+        <property id="1169670356567" name="messageType" index="1lMjX7" />
       </concept>
       <concept id="1195499912406" name="jetbrains.mps.lang.generator.structure.MappingScript" flags="lg" index="1pmfR0">
         <property id="1195595592106" name="scriptKind" index="1v3f2W" />
@@ -1170,7 +1171,7 @@
       <node concept="IoVAe" id="5scyyTagtta" role="IoVAl">
         <property role="TrG5h" value="linkName" />
         <node concept="IoS2J" id="5scyyTagttb" role="IoVAj">
-          <property role="IoS2r" value="referredNodeid" />
+          <property role="IoS2r" value="targetNodeId" />
           <node concept="17Uvod" id="5scyyTagttc" role="lGtFl">
             <property role="2qtEX9" value="value" />
             <property role="P4ACc" value="f3f42ddf-d692-4c29-90fb-7360196f01ab/2110045694544569294/2110045694544569338" />
@@ -1183,7 +1184,7 @@
                     <node concept="2OqwBi" id="5scyyTagtth" role="37wK5m">
                       <node concept="1iwH7S" id="5scyyTagtti" role="2Oq$k0" />
                       <node concept="1psM6Z" id="5scyyTaid$$" role="2OqNvi">
-                        <ref role="1psM6Y" node="5scyyTagv9T" resolve="referredNode" />
+                        <ref role="1psM6Y" node="5scyyTagv9T" resolve="referenceTarget" />
                       </node>
                     </node>
                   </node>
@@ -1199,7 +1200,7 @@
                     <node concept="2OqwBi" id="5scyyTagttp" role="2Oq$k0">
                       <node concept="1iwH7S" id="5scyyTagttq" role="2Oq$k0" />
                       <node concept="1psM6Z" id="5scyyTagAPs" role="2OqNvi">
-                        <ref role="1psM6Y" node="5scyyTagv9T" resolve="referredNode" />
+                        <ref role="1psM6Y" node="5scyyTagv9T" resolve="referenceTarget" />
                       </node>
                     </node>
                     <node concept="3x8VRR" id="5scyyTagtts" role="2OqNvi" />
@@ -1267,13 +1268,13 @@
         </node>
         <node concept="1ps_y7" id="5scyyTagv9S" role="lGtFl">
           <node concept="1ps_xZ" id="5scyyTagv9T" role="1ps_xO">
-            <property role="TrG5h" value="referredNode" />
+            <property role="TrG5h" value="referenceTarget" />
             <node concept="2jfdEK" id="5scyyTagv9U" role="1ps_xN">
               <node concept="3clFbS" id="5scyyTagv9V" role="2VODD2">
                 <node concept="3clFbF" id="5scyyTagvFY" role="3cqZAp">
                   <node concept="2YIFZM" id="5scyyTagvFZ" role="3clFbG">
                     <ref role="1Pybhc" to="zbf5:s0RM0t8U5g" resolve="Utils" />
-                    <ref role="37wK5l" to="zbf5:5scyyTafhwI" resolve="getReference" />
+                    <ref role="37wK5l" to="zbf5:5scyyTafhwI" resolve="getReferenceTarget" />
                     <node concept="2OqwBi" id="6Dgs6zAPC44" role="37wK5m">
                       <node concept="1iwH7S" id="6Dgs6zAPC45" role="2Oq$k0" />
                       <node concept="1psM6Z" id="6Dgs6zAPC46" role="2OqNvi">
@@ -1451,14 +1452,10 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="gft3U" id="6Dgs6zAVnIo" role="UU_$l">
-                          <node concept="IoVAd" id="6Dgs6zAVotC" role="gfFT$">
-                            <node concept="IoVAe" id="6Dgs6zAVotD" role="IoVAl">
-                              <property role="TrG5h" value="DEFAULT FALLTHROUGH in ToJson template" />
-                              <node concept="IoS2J" id="6Dgs6zAVotF" role="IoVAj">
-                                <property role="IoS2r" value="vaue" />
-                              </node>
-                            </node>
+                        <node concept="j$LIH" id="2NO1SZtokf4" role="UU_$l">
+                          <node concept="1lLz0L" id="2NO1SZtokfb" role="1lHHLF">
+                            <property role="1lMjX7" value="h1lM37o/error" />
+                            <property role="1lLB17" value="DEFAULT FALLTHROUGH in ToJson template" />
                           </node>
                         </node>
                       </node>
