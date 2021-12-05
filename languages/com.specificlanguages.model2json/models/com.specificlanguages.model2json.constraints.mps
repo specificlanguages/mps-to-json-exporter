@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:7d566368-9bf4-431e-8cf3-1eb5026915dc(com.specificationlanguages.model2json.constraints)">
+<model ref="r:7d566368-9bf4-431e-8cf3-1eb5026915dc(com.specificlanguages.model2json.constraints)">
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>

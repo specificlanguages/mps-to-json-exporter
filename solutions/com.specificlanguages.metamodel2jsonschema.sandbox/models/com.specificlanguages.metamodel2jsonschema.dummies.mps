@@ -2,46 +2,46 @@
 <model ref="r:c4d2df48-ef2d-4eb2-a111-9a86d05318c8(com.specificlanguages.metamodel2jsonschema.dummies)">
   <persistence version="9" />
   <languages>
-    <use id="c72bb5ed-7d2b-4e68-8d06-5f02045d0bcc" name="com.specificationlanguages.model2json" version="0" />
+    <use id="c72bb5ed-7d2b-4e68-8d06-5f02045d0bcc" name="com.specificlanguages.model2json" version="0" />
     <use id="37ca9e63-a2a3-4038-b64b-816e865c36b1" name="com.specificlanguages.metamodel2jsonschema" version="0" />
-    <use id="c8036489-5139-41f2-af1c-e66872018a1b" name="com.specificationlanguages.jsontest" version="0" />
+    <use id="c8036489-5139-41f2-af1c-e66872018a1b" name="com.specificlanguages.jsontest" version="0" />
   </languages>
   <imports>
-    <import index="k5wn" ref="r:71d5f97f-431a-47ff-adcc-308972a12cee(com.specificationlanguages.jsontest.structure)" />
-    <import index="5xc6" ref="r:76d140a1-bb3d-4000-b7f3-35362f83da91(com.specificationlanguages.jsontest.behavior)" />
+    <import index="k5wn" ref="r:71d5f97f-431a-47ff-adcc-308972a12cee(com.specificlanguages.jsontest.structure)" />
+    <import index="5xc6" ref="r:76d140a1-bb3d-4000-b7f3-35362f83da91(com.specificlanguages.jsontest.behavior)" />
     <import index="7lv6" ref="r:d4c45340-7034-41c5-b035-7c2da3e6fcda(com.specificlanguages.metamodel2json.genplan.genplan)" />
     <import index="ocal" ref="r:7a8c58c2-6da3-43e4-8180-c966e71df17d(com.specificlanguages.metamodel2jsonschema.sandbox)" />
   </imports>
   <registry>
-    <language id="c72bb5ed-7d2b-4e68-8d06-5f02045d0bcc" name="com.specificationlanguages.model2json">
-      <concept id="504648487287308939" name="com.specificationlanguages.model2json.structure.Model2Json" flags="ng" index="qcxQF">
+    <language id="c72bb5ed-7d2b-4e68-8d06-5f02045d0bcc" name="com.specificlanguages.model2json">
+      <concept id="504648487287308939" name="com.specificlanguages.model2json.structure.Model2Json" flags="ng" index="qcxQF">
         <reference id="2779097068145252520" name="export" index="1GsUB" />
       </concept>
     </language>
-    <language id="c8036489-5139-41f2-af1c-e66872018a1b" name="com.specificationlanguages.jsontest">
-      <concept id="7660746562008890419" name="com.specificationlanguages.jsontest.structure.AggregateShape" flags="ng" index="2cxsLr">
+    <language id="c8036489-5139-41f2-af1c-e66872018a1b" name="com.specificlanguages.jsontest">
+      <concept id="7660746562008890419" name="com.specificlanguages.jsontest.structure.AggregateShape" flags="ng" index="2cxsLr">
         <child id="7660746562008890421" name="singleShape" index="2cxsLt" />
       </concept>
-      <concept id="6272540312437665296" name="com.specificationlanguages.jsontest.structure.MainConcept" flags="ng" index="t9EgY">
+      <concept id="6272540312437665296" name="com.specificlanguages.jsontest.structure.MainConcept" flags="ng" index="t9EgY">
         <child id="6272540312438028191" name="shapeOptional" index="t8NQL" />
         <child id="6272540312437665391" name="shapeRequired" index="t9Eh1" />
       </concept>
-      <concept id="6272540312437665455" name="com.specificationlanguages.jsontest.structure.Circle" flags="ng" index="t9Ei1">
+      <concept id="6272540312437665455" name="com.specificlanguages.jsontest.structure.Circle" flags="ng" index="t9Ei1">
         <property id="6272540312437665458" name="radius" index="t9Eis" />
       </concept>
-      <concept id="6272540312437665456" name="com.specificationlanguages.jsontest.structure.Rectangle" flags="ng" index="t9Eiu">
+      <concept id="6272540312437665456" name="com.specificlanguages.jsontest.structure.Rectangle" flags="ng" index="t9Eiu">
         <property id="6272540312437665457" name="width" index="t9Eiv" />
         <property id="7771990060756247790" name="height" index="UTocA" />
         <reference id="2465432216753566019" name="referenceToShape" index="3bk8za" />
       </concept>
-      <concept id="6272540312437665423" name="com.specificationlanguages.jsontest.structure.Shape" flags="ng" index="t9Eix">
+      <concept id="6272540312437665423" name="com.specificlanguages.jsontest.structure.Shape" flags="ng" index="t9Eix">
         <property id="2465432216756299184" name="color" index="3bDHKT" />
         <property id="2465432216755825793" name="fullName" index="3bJxk8" />
       </concept>
-      <concept id="2465432216755148091" name="com.specificationlanguages.jsontest.structure.Readable" flags="ng" index="3bi6MM">
+      <concept id="2465432216755148091" name="com.specificlanguages.jsontest.structure.Readable" flags="ng" index="3bi6MM">
         <property id="2465432216755451767" name="allowed" index="3bHsVY" />
       </concept>
-      <concept id="2465432216754782364" name="com.specificationlanguages.jsontest.structure.Leaf" flags="ng" index="3bjZ$l">
+      <concept id="2465432216754782364" name="com.specificlanguages.jsontest.structure.Leaf" flags="ng" index="3bjZ$l">
         <reference id="2465432216754782378" name="referenceToleafShape" index="3bjZ$z" />
       </concept>
     </language>

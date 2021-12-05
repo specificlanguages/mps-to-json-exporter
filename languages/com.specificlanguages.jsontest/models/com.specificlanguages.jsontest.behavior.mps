@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:76d140a1-bb3d-4000-b7f3-35362f83da91(com.specificationlanguages.jsontest.behavior)">
+<model ref="r:76d140a1-bb3d-4000-b7f3-35362f83da91(com.specificlanguages.jsontest.behavior)">
   <persistence version="9" />
   <languages>
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
@@ -10,7 +10,7 @@
   <imports>
     <import index="ng51" ref="r:c9f8a742-3432-4405-92b5-b03a7e6ac808(com.specificlanguages.metamodel2jsonschema.behavior)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="k5wn" ref="r:71d5f97f-431a-47ff-adcc-308972a12cee(com.specificationlanguages.jsontest.structure)" implicit="true" />
+    <import index="k5wn" ref="r:71d5f97f-431a-47ff-adcc-308972a12cee(com.specificlanguages.jsontest.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
