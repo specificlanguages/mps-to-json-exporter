@@ -89,12 +89,11 @@
     <ref role="1GsUB" to="ocal:5scyyTaaAyN" resolve="Testmetamodel2Json" />
   </node>
   <node concept="t9EgY" id="73cjAFghwi0">
-    <property role="TrG5h" value="Shapes-extra" />
+    <property role="TrG5h" value="Shapes-extra-test" />
     <node concept="t9Ei1" id="73cjAFghwi4" role="t9Eh1">
       <property role="TrG5h" value="circle-e1" />
       <property role="t9Eis" value="111" />
       <property role="3bJxk8" value="extra shapes main" />
-      <property role="3bDHKT" value="28QYoBDzS5v/Red" />
     </node>
   </node>
 </model>
