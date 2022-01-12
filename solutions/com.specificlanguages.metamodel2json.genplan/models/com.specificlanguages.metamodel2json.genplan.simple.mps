@@ -2,7 +2,7 @@
 <model ref="r:c4922a30-da8a-4363-a04b-275a02dd15dc(com.specificlanguages.metamodel2json.genplan.simple)">
   <persistence version="9" />
   <languages>
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="7ab1a6fa-0a11-4b95-9e48-75f363d6cb00" name="jetbrains.mps.lang.generator.plan" version="1" />
   </languages>
   <imports />
@@ -28,16 +28,16 @@
     </language>
   </registry>
   <node concept="2VgMpV" id="2qhlwWB3thX">
-    <property role="TrG5h" value="Modl2Jsonplan" />
+    <property role="TrG5h" value="Model2JsonPlan" />
     <node concept="2VgMA2" id="2qhlwWB3thZ" role="2VgMA7">
-      <node concept="2V$Bhx" id="2qhlwWB3ti2" role="1t_9vn">
+      <node concept="2V$Bhx" id="2NO1SZtntVu" role="1t_9vn">
         <property role="2V$B1T" value="c72bb5ed-7d2b-4e68-8d06-5f02045d0bcc" />
-        <property role="2V$B1Q" value="com.specificationlanguages.model2json" />
+        <property role="2V$B1Q" value="com.specificlanguages.model2json" />
       </node>
     </node>
   </node>
   <node concept="2VgMpV" id="2qhlwWB1l7J">
-    <property role="TrG5h" value="Metamodel2JavaPlan111sddedd" />
+    <property role="TrG5h" value="Metamodel2Java" />
     <node concept="2VgMA2" id="2qhlwWB1l8a" role="2VgMA7">
       <node concept="2V$Bhx" id="73cjAFgjm7p" role="1t_9vn">
         <property role="2V$B1T" value="f81274ef-51e9-4fbc-9bcc-505d21a35248" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:dff0611d-f8ad-4cd9-b492-1d8a0939889c(com.specificationlanguages.model2json.migration)">
+<model ref="r:dff0611d-f8ad-4cd9-b492-1d8a0939889c(com.specificlanguages.model2json.migration)">
   <persistence version="9" />
   <languages>
     <use id="90746344-04fd-4286-97d5-b46ae6a81709" name="jetbrains.mps.lang.migration" version="2" />

@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:3e9ad0fe-b264-4abe-9494-c624a99b5e94(com.specificationlanguages.model2json.generator.templates@generator)">
+<model ref="r:3e9ad0fe-b264-4abe-9494-c624a99b5e94(com.specificlanguages.model2json.generator.templates@generator)">
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="f3f42ddf-d692-4c29-90fb-7360196f01ab" name="com.specificlanguages.json" version="0" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="3" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="4" />
     <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="2" />
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
-    <import index="tt1v" ref="r:dc033f18-3f1e-4eea-a07a-44a985508308(com.specificationlanguages.model2json.structure)" />
-    <import index="zbf5" ref="r:bcc1460b-f0e9-441c-a929-1dc41eca0642(com.specificationlanguages.model2json.generator.genutil)" />
     <import index="pjrh" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter(MPS.Core/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -23,9 +21,11 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="j8aq" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.module(MPS.Core/)" />
     <import index="ng51" ref="r:c9f8a742-3432-4405-92b5-b03a7e6ac808(com.specificlanguages.metamodel2jsonschema.behavior)" />
+    <import index="zbf5" ref="r:bcc1460b-f0e9-441c-a929-1dc41eca0642(com.specificlanguages.model2json.generator.genutil)" />
+    <import index="tt1v" ref="r:dc033f18-3f1e-4eea-a07a-44a985508308(com.specificlanguages.model2json.structure)" implicit="true" />
     <import index="uw2c" ref="r:0b9e32d0-26e5-4f98-8200-895d3357a3c1(com.specificlanguages.metamodel2jsonschema.structure)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
-    <import index="a9yn" ref="r:d503f765-4b37-47fc-892e-b1a44f77a2d2(com.specificationlanguages.model2json.behavior)" implicit="true" />
+    <import index="a9yn" ref="r:d503f765-4b37-47fc-892e-b1a44f77a2d2(com.specificlanguages.model2json.behavior)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" implicit="true" />
   </imports>
@@ -214,6 +214,7 @@
       </concept>
       <concept id="1169670156577" name="jetbrains.mps.lang.generator.structure.GeneratorMessage" flags="lg" index="1lLz0L">
         <property id="1169670173015" name="messageText" index="1lLB17" />
+        <property id="1169670356567" name="messageType" index="1lMjX7" />
       </concept>
       <concept id="1195499912406" name="jetbrains.mps.lang.generator.structure.MappingScript" flags="lg" index="1pmfR0">
         <property id="1195595592106" name="scriptKind" index="1v3f2W" />
@@ -306,7 +307,7 @@
       </concept>
       <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
       </concept>
       <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
         <child id="1145567471833" name="createdType" index="2T96Bj" />
@@ -1377,7 +1378,7 @@
       <node concept="IoVAe" id="5scyyTagtta" role="IoVAl">
         <property role="TrG5h" value="linkName" />
         <node concept="IoS2J" id="5scyyTagttb" role="IoVAj">
-          <property role="IoS2r" value="referredNodeid" />
+          <property role="IoS2r" value="targetNodeId" />
           <node concept="17Uvod" id="5scyyTagttc" role="lGtFl">
             <property role="2qtEX9" value="value" />
             <property role="P4ACc" value="f3f42ddf-d692-4c29-90fb-7360196f01ab/2110045694544569294/2110045694544569338" />
@@ -1390,7 +1391,7 @@
                     <node concept="2OqwBi" id="5scyyTagtth" role="37wK5m">
                       <node concept="1iwH7S" id="5scyyTagtti" role="2Oq$k0" />
                       <node concept="1psM6Z" id="5scyyTaid$$" role="2OqNvi">
-                        <ref role="1psM6Y" node="5scyyTagv9T" resolve="referredNode" />
+                        <ref role="1psM6Y" node="5scyyTagv9T" resolve="referenceTarget" />
                       </node>
                     </node>
                   </node>
@@ -1406,7 +1407,7 @@
                     <node concept="2OqwBi" id="5scyyTagttp" role="2Oq$k0">
                       <node concept="1iwH7S" id="5scyyTagttq" role="2Oq$k0" />
                       <node concept="1psM6Z" id="5scyyTagAPs" role="2OqNvi">
-                        <ref role="1psM6Y" node="5scyyTagv9T" resolve="referredNode" />
+                        <ref role="1psM6Y" node="5scyyTagv9T" resolve="referenceTarget" />
                       </node>
                     </node>
                     <node concept="3x8VRR" id="5scyyTagtts" role="2OqNvi" />
@@ -1474,13 +1475,13 @@
         </node>
         <node concept="1ps_y7" id="5scyyTagv9S" role="lGtFl">
           <node concept="1ps_xZ" id="5scyyTagv9T" role="1ps_xO">
-            <property role="TrG5h" value="referredNode" />
+            <property role="TrG5h" value="referenceTarget" />
             <node concept="2jfdEK" id="5scyyTagv9U" role="1ps_xN">
               <node concept="3clFbS" id="5scyyTagv9V" role="2VODD2">
                 <node concept="3clFbF" id="5scyyTagvFY" role="3cqZAp">
                   <node concept="2YIFZM" id="5scyyTagvFZ" role="3clFbG">
                     <ref role="1Pybhc" to="zbf5:s0RM0t8U5g" resolve="Utils" />
-                    <ref role="37wK5l" to="zbf5:5scyyTafhwI" resolve="getReference" />
+                    <ref role="37wK5l" to="zbf5:5scyyTafhwI" resolve="getReferenceTarget" />
                     <node concept="2OqwBi" id="6Dgs6zAPC44" role="37wK5m">
                       <node concept="1iwH7S" id="6Dgs6zAPC45" role="2Oq$k0" />
                       <node concept="1psM6Z" id="6Dgs6zAPC46" role="2OqNvi">
@@ -1658,14 +1659,10 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="gft3U" id="6Dgs6zAVnIo" role="UU_$l">
-                          <node concept="IoVAd" id="6Dgs6zAVotC" role="gfFT$">
-                            <node concept="IoVAe" id="6Dgs6zAVotD" role="IoVAl">
-                              <property role="TrG5h" value="DEFAULT FALLTHROUGH in ToJson template" />
-                              <node concept="IoS2J" id="6Dgs6zAVotF" role="IoVAj">
-                                <property role="IoS2r" value="vaue" />
-                              </node>
-                            </node>
+                        <node concept="j$LIH" id="2NO1SZtokf4" role="UU_$l">
+                          <node concept="1lLz0L" id="2NO1SZtokfb" role="1lHHLF">
+                            <property role="1lMjX7" value="h1lM37o/error" />
+                            <property role="1lLB17" value="DEFAULT FALLTHROUGH in ToJson template" />
                           </node>
                         </node>
                       </node>
@@ -1800,7 +1797,9 @@
               <node concept="2OqwBi" id="2qhlwWBkdgM" role="2Oq$k0">
                 <node concept="1Q6Npb" id="2qhlwWBkdgN" role="2Oq$k0" />
                 <node concept="2RRcyG" id="2qhlwWBkdgO" role="2OqNvi">
-                  <ref role="2RRcyH" to="tt1v:s0RM0tcGab" resolve="Model2Json" />
+                  <node concept="chp4Y" id="6NGW$RGODtI" role="3MHsoP">
+                    <ref role="cht4Q" to="tt1v:s0RM0tcGab" resolve="Model2Json" />
+                  </node>
                 </node>
               </node>
               <node concept="1uHKPH" id="2qhlwWBkdgP" role="2OqNvi" />

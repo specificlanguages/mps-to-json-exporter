@@ -14,7 +14,6 @@
     <import index="zjt0" ref="de7b3dd2-00f3-408b-b4a5-72c5facff2d9/i:f040404(com.specificlanguages.dependencies/com.specificlanguages.dependencies@descriptor)" />
     <import index="7k8f" ref="de7b3dd2-00f3-408b-b4a5-72c5facff2d9/java:com.fasterxml.jackson.databind(com.specificlanguages.dependencies/)" />
     <import index="lhlt" ref="de7b3dd2-00f3-408b-b4a5-72c5facff2d9/java:com.fasterxml.jackson.databind.node(com.specificlanguages.dependencies/)" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -52,8 +51,8 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
+        <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
@@ -98,6 +97,7 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <property id="4467513934994662257" name="forceMultiLine" index="TyiWK" />
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -263,7 +263,7 @@
       <node concept="3clFbS" id="28QYoBDqmV8" role="3clF47">
         <node concept="3cpWs8" id="28QYoBDqpy4" role="3cqZAp">
           <node concept="3cpWsn" id="28QYoBDqpy5" role="3cpWs9">
-            <property role="TrG5h" value="putIfAbsent" />
+            <property role="TrG5h" value="previous" />
             <node concept="3uibUv" id="28QYoBDqoNt" role="1tU5fm">
               <ref role="3uigEE" node="73cjAFgjiAG" resolve="Node" />
             </node>
@@ -291,43 +291,40 @@
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="28QYoBDqrGl" role="3cqZAp">
-          <node concept="1PaTwC" id="28QYoBDqrGm" role="1aUNEU">
-            <node concept="3oM_SD" id="28QYoBDqrGn" role="1PaTwD">
-              <property role="3oM_SC" value="This" />
-            </node>
-            <node concept="3oM_SD" id="28QYoBDqrMZ" role="1PaTwD">
-              <property role="3oM_SC" value="should" />
-            </node>
-            <node concept="3oM_SD" id="28QYoBDqrN2" role="1PaTwD">
-              <property role="3oM_SC" value="not" />
-            </node>
-            <node concept="3oM_SD" id="28QYoBDqrN6" role="1PaTwD">
-              <property role="3oM_SC" value="happen!" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="28QYoBDqq8F" role="3cqZAp">
+          <property role="TyiWK" value="true" />
           <node concept="3clFbS" id="28QYoBDqq8H" role="3clFbx">
-            <node concept="3clFbF" id="28QYoBDqqu7" role="3cqZAp">
-              <node concept="2OqwBi" id="28QYoBDqqu4" role="3clFbG">
-                <node concept="10M0yZ" id="28QYoBDqqu5" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            <node concept="3SKdUt" id="28QYoBDqrGl" role="3cqZAp">
+              <node concept="1PaTwC" id="28QYoBDqrGm" role="1aUNEU">
+                <node concept="3oM_SD" id="28QYoBDqrGn" role="1PaTwD">
+                  <property role="3oM_SC" value="This" />
                 </node>
-                <node concept="liA8E" id="28QYoBDqqu6" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                  <node concept="3cpWs3" id="28QYoBDqr2b" role="37wK5m">
-                    <node concept="2OqwBi" id="28QYoBDqrdI" role="3uHU7w">
-                      <node concept="37vLTw" id="28QYoBDqr3Y" role="2Oq$k0">
+                <node concept="3oM_SD" id="28QYoBDqrMZ" role="1PaTwD">
+                  <property role="3oM_SC" value="should" />
+                </node>
+                <node concept="3oM_SD" id="28QYoBDqrN2" role="1PaTwD">
+                  <property role="3oM_SC" value="not" />
+                </node>
+                <node concept="3oM_SD" id="28QYoBDqrN6" role="1PaTwD">
+                  <property role="3oM_SC" value="happen!" />
+                </node>
+              </node>
+            </node>
+            <node concept="YS8fn" id="2NO1SZtnPAA" role="3cqZAp">
+              <node concept="2ShNRf" id="2NO1SZtnPAX" role="YScLw">
+                <node concept="1pGfFk" id="2NO1SZtnTcC" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                  <node concept="3cpWs3" id="2NO1SZtnYuK" role="37wK5m">
+                    <node concept="2OqwBi" id="2NO1SZtnYTf" role="3uHU7w">
+                      <node concept="37vLTw" id="2NO1SZtnYuZ" role="2Oq$k0">
                         <ref role="3cqZAo" node="28QYoBDqn28" resolve="node" />
                       </node>
-                      <node concept="liA8E" id="28QYoBDqriP" role="2OqNvi">
+                      <node concept="liA8E" id="2NO1SZtnZmH" role="2OqNvi">
                         <ref role="37wK5l" node="4aDR7MCYO1k" resolve="nodeId" />
                       </node>
                     </node>
-                    <node concept="Xl_RD" id="28QYoBDqqv4" role="3uHU7B">
-                      <property role="Xl_RC" value="MpsModel: trying to add duplicate node with id: " />
+                    <node concept="Xl_RD" id="2NO1SZtnU2m" role="3uHU7B">
+                      <property role="Xl_RC" value="Node with the same ID already present in the model: " />
                     </node>
                   </node>
                 </node>
@@ -337,7 +334,7 @@
           <node concept="3y3z36" id="28QYoBDqqoD" role="3clFbw">
             <node concept="10Nm6u" id="28QYoBDqqt$" role="3uHU7w" />
             <node concept="37vLTw" id="28QYoBDqqdS" role="3uHU7B">
-              <ref role="3cqZAo" node="28QYoBDqpy5" resolve="putIfAbsent" />
+              <ref role="3cqZAo" node="28QYoBDqpy5" resolve="previous" />
             </node>
           </node>
         </node>

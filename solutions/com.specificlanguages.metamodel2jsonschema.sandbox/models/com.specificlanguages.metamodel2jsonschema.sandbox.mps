@@ -3,11 +3,11 @@
   <persistence version="9" />
   <languages>
     <use id="37ca9e63-a2a3-4038-b64b-816e865c36b1" name="com.specificlanguages.metamodel2jsonschema" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="17" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <engage id="f3f42ddf-d692-4c29-90fb-7360196f01ab" name="com.specificlanguages.json" />
   </languages>
   <imports>
-    <import index="5xc6" ref="r:76d140a1-bb3d-4000-b7f3-35362f83da91(com.specificationlanguages.jsontest.behavior)" />
+    <import index="5xc6" ref="r:76d140a1-bb3d-4000-b7f3-35362f83da91(com.specificlanguages.jsontest.behavior)" />
   </imports>
   <registry>
     <language id="37ca9e63-a2a3-4038-b64b-816e865c36b1" name="com.specificlanguages.metamodel2jsonschema">
@@ -41,9 +41,9 @@
     <node concept="NzV0a" id="2qhlwWBapiX" role="1Gsc4">
       <property role="TrG5h" value="shortDescription" />
     </node>
-    <node concept="2V$Bhx" id="5scyyTaaAzM" role="3l_2cT">
+    <node concept="2V$Bhx" id="2NO1SZtntGP" role="3l_2cT">
       <property role="2V$B1T" value="c8036489-5139-41f2-af1c-e66872018a1b" />
-      <property role="2V$B1Q" value="com.specificationlanguages.jsontest" />
+      <property role="2V$B1Q" value="com.specificlanguages.jsontest" />
     </node>
   </node>
 </model>

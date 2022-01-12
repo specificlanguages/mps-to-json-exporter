@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:1a7fba28-42ca-4da9-87ad-baf68a9ddc2b(com.specificationlanguages.jsontest.editor)">
+<model ref="r:1a7fba28-42ca-4da9-87ad-baf68a9ddc2b(com.specificlanguages.jsontest.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />

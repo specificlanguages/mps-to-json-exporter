@@ -2,11 +2,11 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/com.specificationlanguages.jsontest/com.specificationlanguages.jsontest.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/com.specificationlanguages.model2json/com.specificationlanguages.model2json.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.json/com.specificlanguages.json.mpl" folder="json" />
+      <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.jsontest/com.specificlanguages.jsontest.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.metamodel2java/com.specificlanguages.metamodel2java.mpl" folder="metamodel2" />
       <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.metamodel2jsonschema/com.specificlanguages.metamodel2jsonschema.mpl" folder="metamodel2jsonschema" />
+      <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.model2json/com.specificlanguages.model2json.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.specificlanguages.dependencies/com.specificlanguages.dependencies.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/com.specificlanguages.metamodel2java.runtime/com.specificlanguages.metamodel2java.runtime.msd" folder="metamodel2" />
       <modulePath path="$PROJECT_DIR$/solutions/com.specificlanguages.metamodel2json.genplan/com.specificlanguages.metamodel2json.genplan.msd" folder="" />
