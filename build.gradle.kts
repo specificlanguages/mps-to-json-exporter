@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:2021.1.3:zip")
+    "mps"("com.jetbrains:mps:2021.1.3@zip")
     "generation"("com.specificlanguages:mps-json:1.0.0@zip")
 }
 
@@ -26,7 +26,7 @@ stubs {
 }
 
 group = "com.specificlanguages"
-version = "0.0.5"
+version = "0.0.6"
 
 publishing {
     publications {
