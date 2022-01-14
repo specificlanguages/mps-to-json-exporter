@@ -2,7 +2,6 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.json/com.specificlanguages.json.mpl" folder="json" />
       <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.jsontest/com.specificlanguages.jsontest.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.metamodel2java/com.specificlanguages.metamodel2java.mpl" folder="metamodel2" />
       <modulePath path="$PROJECT_DIR$/languages/com.specificlanguages.metamodel2jsonschema/com.specificlanguages.metamodel2jsonschema.mpl" folder="metamodel2jsonschema" />

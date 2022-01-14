@@ -1,15 +1,18 @@
 plugins {
-    id("com.specificlanguages.mps") version "1.2.0"
+    id("com.specificlanguages.mps") version "1.2.1"
     `maven-publish`
 }
 
 repositories {
     maven(url = "https://projects.itemis.de/nexus/content/repositories/mbeddr")
     mavenCentral()
+    // JitPack should come last since it will build things on demand
+    maven(url = "https://jitpack.io")
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:2021.1.3")
+    "mps"("com.jetbrains:mps:2021.1.3:zip")
+    "generation"("com.specificlanguages:mps-json:1.0.0@zip")
 }
 
 stubs {
@@ -30,8 +33,8 @@ publishing {
         register<MavenPublication>("mpsPlugin") {
             from(components["mps"])
 
-            // Put resolved versions of dependencies into POM files -- uncomment as soon as we have any dependencies
-            // versionMapping { usage("java-runtime") { fromResolutionOf("generation") } }
+            // Put resolved versions of dependencies into POM files
+            versionMapping { usage("java-runtime") { fromResolutionOf("generation") } }
         }
     }
     repositories {

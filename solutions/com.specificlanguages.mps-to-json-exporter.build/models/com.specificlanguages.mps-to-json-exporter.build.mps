@@ -8,6 +8,7 @@
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="zjt0" ref="de7b3dd2-00f3-408b-b4a5-72c5facff2d9/i:f040404(com.specificlanguages.dependencies/com.specificlanguages.dependencies@descriptor)" />
+    <import index="2siz" ref="r:1044fb59-f691-4b27-8b09-aa9b966feb0e(com.specificlanguages.json.build)" />
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
@@ -180,6 +181,20 @@
         <ref role="398BVh" node="11l7BDuSXa6" resolve="mps_home" />
       </node>
     </node>
+    <node concept="2sgV4H" id="2Hp7a1eyPA" role="1l3spa">
+      <ref role="1l3spb" to="2siz:2Hp7a1emEW" resolve="com.specificlanguages.json" />
+      <node concept="55IIr" id="4d5TAmvMQLU" role="2JcizS">
+        <node concept="2Ry0Ak" id="4d5TAmvMQLX" role="iGT6I">
+          <property role="2Ry0Am" value="build" />
+          <node concept="2Ry0Ak" id="4d5TAmvMQMm" role="2Ry0An">
+            <property role="2Ry0Am" value="dependencies" />
+            <node concept="2Ry0Ak" id="4dlBnAzCu0h" role="2Ry0An">
+              <property role="2Ry0Am" value="com.specificlanguages.json" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1l3spV" id="11l7BDuSXaK" role="1l3spN">
       <node concept="m$_wl" id="2qMfeKXJ_SY" role="39821P">
         <ref role="m_rDy" node="11l7BDuSXaz" resolve="com.specificlanguages.mps2json" />
@@ -226,6 +241,9 @@
       </node>
       <node concept="m$_yC" id="1oDLIwts6sj" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
+      </node>
+      <node concept="m$_yC" id="4d5TAmvMQOE" role="m$_yJ">
+        <ref role="m$_y1" to="2siz:2Hp7a1emFh" resolve="com.specificlanguages.json" />
       </node>
       <node concept="3_J27D" id="11l7BDuSXaE" role="m_cZH">
         <node concept="3Mxwew" id="11l7BDuSXaF" role="3MwsjC">
@@ -296,56 +314,9 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="1E1JtD" id="11l7BDuSXar" role="2G$12L">
-        <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="com.specificlanguages.json" />
-        <property role="3LESm3" value="f3f42ddf-d692-4c29-90fb-7360196f01ab" />
-        <node concept="55IIr" id="11l7BDuSXam" role="3LF7KH">
-          <node concept="2Ry0Ak" id="11l7BDuSXan" role="iGT6I">
-            <property role="2Ry0Am" value="languages" />
-            <node concept="2Ry0Ak" id="11l7BDuSXao" role="2Ry0An">
-              <property role="2Ry0Am" value="com.specificlanguages.json" />
-              <node concept="2Ry0Ak" id="11l7BDuSXap" role="2Ry0An">
-                <property role="2Ry0Am" value="com.specificlanguages.json.mpl" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1BupzO" id="11l7BDuSXaU" role="3bR31x">
-          <property role="3ZfqAx" value="models" />
-          <property role="1Hdu6h" value="true" />
-          <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="11l7BDuSXaV" role="1HemKq">
-            <node concept="55IIr" id="11l7BDuSXaQ" role="3LXTmr">
-              <node concept="2Ry0Ak" id="11l7BDuSXaR" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="11l7BDuSXaS" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.specificlanguages.json" />
-                  <node concept="2Ry0Ak" id="11l7BDuSXaT" role="2Ry0An">
-                    <property role="2Ry0Am" value="models" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="11l7BDuSXaW" role="3LXTna">
-              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
-            </node>
-          </node>
-        </node>
-        <node concept="3rtmxn" id="11l7BDuSZGX" role="3bR31x">
-          <node concept="3LXTmp" id="11l7BDuSZGY" role="3rtmxm">
-            <node concept="55IIr" id="11l7BDuSZGZ" role="3LXTmr">
-              <node concept="2Ry0Ak" id="11l7BDuSZH0" role="iGT6I">
-                <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="11l7BDuSZH1" role="2Ry0An">
-                  <property role="2Ry0Am" value="com.specificlanguages.json" />
-                </node>
-              </node>
-            </node>
-            <node concept="3qWCbU" id="11l7BDuSZH3" role="3LXTna">
-              <property role="3qWCbO" value="icons/**, resources/**" />
-            </node>
+        <node concept="1SiIV0" id="4d5TAmvMQMr" role="3bR37C">
+          <node concept="3bR9La" id="4d5TAmvMQMs" role="1SiIV1">
+            <ref role="3bR37D" to="2siz:2Hp7a1emGK" resolve="com.specificlanguages.json.build" />
           </node>
         </node>
       </node>
