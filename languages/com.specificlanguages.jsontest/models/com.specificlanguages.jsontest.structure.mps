@@ -124,6 +124,11 @@
       <property role="TrG5h" value="color" />
       <ref role="AX2Wp" node="28QYoBDzS5u" resolve="Color" />
     </node>
+    <node concept="1TJgyi" id="3FVwTaLX5MA" role="1TKVEl">
+      <property role="IQ2nx" value="4250135339428240550" />
+      <property role="TrG5h" value="furniture" />
+      <ref role="AX2Wp" node="3FVwTaLX1nm" resolve="Furniture" />
+    </node>
     <node concept="PrWs8" id="6Dgs6zAPrKO" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -245,6 +250,22 @@
     <node concept="25R33" id="28QYoBDzS67" role="25R1y">
       <property role="3tVfz5" value="2465432216756257159" />
       <property role="TrG5h" value="Blue" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3FVwTaLX1nm">
+    <property role="3F6X1D" value="4250135339428222422" />
+    <property role="TrG5h" value="Furniture" />
+    <node concept="25R33" id="3FVwTaLX1no" role="25R1y">
+      <property role="3tVfz5" value="4250135339428222424" />
+      <property role="TrG5h" value="chair" />
+    </node>
+    <node concept="25R33" id="3FVwTaLX1nq" role="25R1y">
+      <property role="3tVfz5" value="4250135339428222426" />
+      <property role="TrG5h" value="table" />
+    </node>
+    <node concept="25R33" id="3FVwTaLX1nt" role="25R1y">
+      <property role="3tVfz5" value="4250135339428222429" />
+      <property role="TrG5h" value="carpet" />
     </node>
   </node>
 </model>

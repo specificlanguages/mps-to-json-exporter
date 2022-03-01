@@ -5,6 +5,7 @@
     <use id="37ca9e63-a2a3-4038-b64b-816e865c36b1" name="com.specificlanguages.metamodel2jsonschema" version="0" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <engage id="f3f42ddf-d692-4c29-90fb-7360196f01ab" name="com.specificlanguages.json" />
+    <engage id="f81274ef-51e9-4fbc-9bcc-505d21a35248" name="com.specificlanguages.metamodel2java" />
   </languages>
   <imports>
     <import index="5xc6" ref="r:76d140a1-bb3d-4000-b7f3-35362f83da91(com.specificlanguages.jsontest.behavior)" />

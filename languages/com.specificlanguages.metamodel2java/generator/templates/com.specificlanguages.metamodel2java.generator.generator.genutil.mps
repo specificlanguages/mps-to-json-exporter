@@ -42,6 +42,10 @@
         <child id="1083245396908" name="enumConstant" index="Qtgdg" />
       </concept>
       <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
+      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -957,6 +961,33 @@
     </node>
     <node concept="3Tm1VV" id="1hpma8pexEk" role="1B3o_S" />
     <node concept="2tJIrI" id="28QYoBDz$wN" role="jymVt" />
+    <node concept="2YIFZL" id="446zKj8c38N" role="jymVt">
+      <property role="TrG5h" value="enumNullLiteral" />
+      <node concept="3clFbS" id="446zKj8c38Q" role="3clF47">
+        <node concept="3clFbF" id="446zKj8c3X9" role="3cqZAp">
+          <node concept="3cpWs3" id="446zKj8c4tC" role="3clFbG">
+            <node concept="2YIFZM" id="446zKj8c5h_" role="3uHU7w">
+              <ref role="37wK5l" node="28QYoBDzxlG" resolve="enumerationName" />
+              <ref role="1Pybhc" node="1hpma8pexEj" resolve="Names" />
+              <node concept="37vLTw" id="446zKj8c5UR" role="37wK5m">
+                <ref role="3cqZAo" node="446zKj8c3Mj" resolve="enumDecl" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="446zKj8c3X8" role="3uHU7B">
+              <property role="Xl_RC" value="Null_" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="446zKj8c2Zk" role="1B3o_S" />
+      <node concept="17QB3L" id="446zKj8c36w" role="3clF45" />
+      <node concept="37vLTG" id="446zKj8c3Mj" role="3clF46">
+        <property role="TrG5h" value="enumDecl" />
+        <node concept="3Tqbb2" id="446zKj8c3Mi" role="1tU5fm">
+          <ref role="ehGHo" to="tpce:2TR3acGo7Lv" resolve="EnumerationDeclaration" />
+        </node>
+      </node>
+    </node>
     <node concept="2YIFZL" id="28QYoBDz$DN" role="jymVt">
       <property role="TrG5h" value="enumLiteralName" />
       <node concept="3clFbS" id="28QYoBDz$DQ" role="3clF47">
@@ -1085,6 +1116,25 @@
       <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="3Tm1VV" id="4$78109pqYj" role="1B3o_S" />
+    <node concept="2YIFZL" id="446zKj7Y2mi" role="jymVt">
+      <property role="TrG5h" value="enumValue" />
+      <node concept="3clFbS" id="446zKj7XN5C" role="3clF47">
+        <node concept="3cpWs6" id="446zKj7XNcm" role="3cqZAp">
+          <node concept="Rm8GO" id="446zKj7Y2kT" role="3cqZAk">
+            <ref role="Rm8GQ" node="4$78109pr06" resolve="DummyValue" />
+            <ref role="1Px2BO" node="4$78109pqYi" resolve="DummyEnum" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="446zKj7XN9X" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="446zKj7XN9W" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="446zKj7XN6_" role="3clF45">
+        <ref role="3uigEE" node="4$78109pqYi" resolve="DummyEnum" />
+      </node>
+      <node concept="3Tm1VV" id="446zKj7XN5B" role="1B3o_S" />
+    </node>
   </node>
   <node concept="312cEu" id="4$78109qMXy">
     <property role="TrG5h" value="DummyClass" />
