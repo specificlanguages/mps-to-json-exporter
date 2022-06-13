@@ -42,10 +42,6 @@
         <child id="1083245396908" name="enumConstant" index="Qtgdg" />
       </concept>
       <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
-      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
-        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
-        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
-      </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
@@ -1089,27 +1085,6 @@
       <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="3Tm1VV" id="4$78109pqYj" role="1B3o_S" />
-    <node concept="2YIFZL" id="4lToQbmFH6a" role="jymVt">
-      <property role="TrG5h" value="fromString" />
-      <node concept="3clFbS" id="4lToQbmFp9K" role="3clF47">
-        <node concept="3cpWs6" id="4lToQbmFpgz" role="3cqZAp">
-          <node concept="Rm8GO" id="4lToQbmFpqe" role="3cqZAk">
-            <ref role="1Px2BO" node="4$78109pqYi" resolve="DummyEnum" />
-            <ref role="Rm8GQ" node="4$78109pr06" resolve="DummyValue" />
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="4lToQbmFpcq" role="3clF46">
-        <property role="TrG5h" value="value" />
-        <node concept="3uibUv" id="4lToQbmFpeh" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-        </node>
-      </node>
-      <node concept="3uibUv" id="4lToQbmFpaH" role="3clF45">
-        <ref role="3uigEE" node="4$78109pqYi" resolve="DummyEnum" />
-      </node>
-      <node concept="3Tm1VV" id="4lToQbmFp9J" role="1B3o_S" />
-    </node>
   </node>
   <node concept="312cEu" id="4$78109qMXy">
     <property role="TrG5h" value="DummyClass" />
