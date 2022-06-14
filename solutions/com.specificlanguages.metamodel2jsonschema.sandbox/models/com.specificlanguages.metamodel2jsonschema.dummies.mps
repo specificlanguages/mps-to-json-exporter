@@ -38,9 +38,6 @@
         <property id="2465432216756299184" name="color" index="3bDHKT" />
         <property id="2465432216755825793" name="fullName" index="3bJxk8" />
       </concept>
-      <concept id="2465432216755148091" name="com.specificlanguages.jsontest.structure.Readable" flags="ng" index="3bi6MM">
-        <property id="2465432216755451767" name="allowed" index="3bHsVY" />
-      </concept>
       <concept id="2465432216754782364" name="com.specificlanguages.jsontest.structure.Leaf" flags="ng" index="3bjZ$l">
         <property id="2465432216754782370" name="isOk" index="3bjZ$F" />
         <reference id="2465432216754782378" name="referenceToleafShape" index="3bjZ$z" />
@@ -81,7 +78,6 @@
       <property role="UTocA" value="33" />
       <property role="3bJxk8" value="Full rectanglename" />
       <property role="3bDHKT" value="28QYoBDzS5v/Red" />
-      <property role="3bHsVY" value="true" />
       <property role="3bjZ$F" value="true" />
       <ref role="3bk8za" node="6Dgs6zAPsiw" resolve="circle" />
       <ref role="3bjZ$z" node="73cjAFghwi4" resolve="circle-e1" />

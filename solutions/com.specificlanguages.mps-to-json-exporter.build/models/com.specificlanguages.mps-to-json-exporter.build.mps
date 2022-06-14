@@ -429,11 +429,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="5Nv2ZO9dbAy" role="3bR37C">
-          <node concept="3bR9La" id="5Nv2ZO9dbAz" role="1SiIV1">
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
-          </node>
-        </node>
       </node>
       <node concept="1E1JtD" id="2qhlwWBcJUY" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -536,6 +531,11 @@
           <node concept="1SiIV0" id="NxKqurFlAD" role="3bR37C">
             <node concept="3bR9La" id="NxKqurFlAE" role="1SiIV1">
               <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="5NCNJqwOW_u" role="3bR37C">
+            <node concept="3bR9La" id="5NCNJqwOW_v" role="1SiIV1">
+              <ref role="3bR37D" to="2siz:2Hp7a1emFf" resolve="com.specificlanguages.json" />
             </node>
           </node>
         </node>
