@@ -538,6 +538,11 @@
               <ref role="3bR37D" to="2siz:2Hp7a1emFf" resolve="com.specificlanguages.json" />
             </node>
           </node>
+          <node concept="1SiIV0" id="3aSKG81In$w" role="3bR37C">
+            <node concept="3bR9La" id="3aSKG81In$x" role="1SiIV1">
+              <ref role="3bR37D" node="2qMfeKXHtAf" resolve="com.specificlanguages.dependencies" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="2qMfeKXHtWY" role="3bR37C">
           <node concept="3bR9La" id="2qMfeKXHtWZ" role="1SiIV1">
