@@ -124,6 +124,11 @@
       <property role="TrG5h" value="color" />
       <ref role="AX2Wp" node="28QYoBDzS5u" resolve="Color" />
     </node>
+    <node concept="1TJgyi" id="2Qbz6SX4d0s" role="1TKVEl">
+      <property role="IQ2nx" value="3281871158568341532" />
+      <property role="TrG5h" value="enumWithoutDefault" />
+      <ref role="AX2Wp" node="2Qbz6SX4d0n" resolve="EnumWithoutDefault" />
+    </node>
     <node concept="PrWs8" id="6Dgs6zAPrKO" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -245,6 +250,18 @@
     <node concept="25R33" id="28QYoBDzS67" role="25R1y">
       <property role="3tVfz5" value="2465432216756257159" />
       <property role="TrG5h" value="Blue" />
+    </node>
+  </node>
+  <node concept="25R3W" id="2Qbz6SX4d0n">
+    <property role="3F6X1D" value="3281871158568341527" />
+    <property role="TrG5h" value="EnumWithoutDefault" />
+    <node concept="25R33" id="2Qbz6SX4d0o" role="25R1y">
+      <property role="3tVfz5" value="3281871158568341528" />
+      <property role="TrG5h" value="VALUE1" />
+    </node>
+    <node concept="25R33" id="2Qbz6SX4d0p" role="25R1y">
+      <property role="3tVfz5" value="3281871158568341529" />
+      <property role="TrG5h" value="VALUE2" />
     </node>
   </node>
 </model>

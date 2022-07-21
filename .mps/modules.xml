@@ -13,4 +13,9 @@
       <modulePath path="$PROJECT_DIR$/solutions/com.specificlanguages.mps-to-json-exporter.build/com.specificlanguages.mps-to-json-exporter.build.msd" folder="build" />
     </projectModules>
   </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mps-to-json-exporter.iml" filepath="$PROJECT_DIR$/.idea/modules/mps-to-json-exporter.iml" />
+    </modules>
+  </component>
 </project>
