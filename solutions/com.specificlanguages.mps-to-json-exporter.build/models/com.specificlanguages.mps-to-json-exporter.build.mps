@@ -413,6 +413,11 @@
               <ref role="3bR37D" node="2qhlwWBcJUY" resolve="com.specificlanguages.model2json" />
             </node>
           </node>
+          <node concept="1SiIV0" id="6s_vjNbFPfc" role="3bR37C">
+            <node concept="3bR9La" id="6s_vjNbFPfd" role="1SiIV1">
+              <ref role="3bR37D" node="11l7BDuSXax" resolve="com.specificlanguages.metamodel2jsonschema" />
+            </node>
+          </node>
         </node>
         <node concept="3rtmxn" id="11l7BDuSZHq" role="3bR31x">
           <node concept="3LXTmp" id="11l7BDuSZHr" role="3rtmxm">
@@ -427,6 +432,11 @@
             <node concept="3qWCbU" id="11l7BDuSZHw" role="3LXTna">
               <property role="3qWCbO" value="icons/**, resources/**" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="6s_vjNbFPf6" role="3bR37C">
+          <node concept="3bR9La" id="6s_vjNbFPf7" role="1SiIV1">
+            <ref role="3bR37D" node="11l7BDuSXb6" resolve="com.specificlanguages.metamodel2jsonschema.generator" />
           </node>
         </node>
       </node>

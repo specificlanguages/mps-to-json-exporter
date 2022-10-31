@@ -99,6 +99,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4dEmNpKTuGW" resolve="Named" />
     </node>
+    <node concept="1TJgyj" id="xRckkBXqwR" role="1TKVEi">
+      <property role="IQ2ns" value="610010447624906807" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="exportedRootConcepts" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="xRckkBXrbS" resolve="RootConceptRef" />
+    </node>
     <node concept="PrWs8" id="2klTazKws_E" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -106,6 +113,7 @@
   <node concept="1TIwiD" id="2klTazKwPCX">
     <property role="EcuMT" value="2672293368155036221" />
     <property role="TrG5h" value="ConceptRef" />
+    <property role="34LRSv" value="concept reference" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2klTazKwPCY" role="1TKVEi">
       <property role="IQ2ns" value="2672293368155036222" />
@@ -117,6 +125,7 @@
   <node concept="1TIwiD" id="2klTazKwPD0">
     <property role="EcuMT" value="2672293368155036224" />
     <property role="TrG5h" value="EnumRef" />
+    <property role="34LRSv" value="enum ref" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2klTazKwPD1" role="1TKVEi">
       <property role="IQ2ns" value="2672293368155036225" />
@@ -128,9 +137,22 @@
   <node concept="1TIwiD" id="4dEmNpKTuGW">
     <property role="EcuMT" value="4857795437452979004" />
     <property role="TrG5h" value="Named" />
+    <property role="34LRSv" value="property" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4dEmNpKTuHs" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="xRckkBXrbS">
+    <property role="EcuMT" value="610010447624909560" />
+    <property role="TrG5h" value="RootConceptRef" />
+    <property role="34LRSv" value="root concept" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="xRckkBXrbT" role="1TKVEi">
+      <property role="IQ2ns" value="610010447624909561" />
+      <property role="20kJfa" value="concept" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
     </node>
   </node>
 </model>

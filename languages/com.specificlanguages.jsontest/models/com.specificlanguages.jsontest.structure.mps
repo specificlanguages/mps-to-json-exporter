@@ -264,5 +264,11 @@
       <property role="TrG5h" value="VALUE2" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7CsTXhXES8T">
+    <property role="EcuMT" value="8799162671802581561" />
+    <property role="19KtqR" value="true" />
+    <property role="TrG5h" value="RootableDummy" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
 </model>
 

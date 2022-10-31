@@ -30,6 +30,7 @@
         <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
         <dependency reexport="false">c72bb5ed-7d2b-4e68-8d06-5f02045d0bcc(com.specificlanguages.model2json)</dependency>
+        <dependency reexport="false">37ca9e63-a2a3-4038-b64b-816e865c36b1(com.specificlanguages.metamodel2jsonschema)</dependency>
       </dependencies>
       <languageVersions>
         <language slang="l:f3f42ddf-d692-4c29-90fb-7360196f01ab:com.specificlanguages.json" version="0" />
@@ -77,6 +78,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
+    <dependency reexport="false">fd9084c0-89ce-4d57-b6c2-e390df147a2c(com.specificlanguages.metamodel2jsonschema.generator)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />

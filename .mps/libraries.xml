@@ -3,11 +3,11 @@
   <component name="ProjectLibraryManager">
     <option name="libraries">
       <map>
-        <entry key="dependencies">
+        <entry key="com.specificlanguages.json">
           <value>
             <Library>
-              <option name="name" value="dependencies" />
-              <option name="path" value="$PROJECT_DIR$/build/dependencies" />
+              <option name="name" value="com.specificlanguages.json" />
+              <option name="path" value="$PROJECT_DIR$/build/dependencies/com.specificlanguages.json" />
             </Library>
           </value>
         </entry>

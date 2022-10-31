@@ -19,6 +19,7 @@
       </concept>
     </language>
     <language id="c8036489-5139-41f2-af1c-e66872018a1b" name="com.specificlanguages.jsontest">
+      <concept id="8799162671802581561" name="com.specificlanguages.jsontest.structure.RootableDummy" flags="ng" index="7HQnH" />
       <concept id="7660746562008890419" name="com.specificlanguages.jsontest.structure.AggregateShape" flags="ng" index="2cxsLr">
         <child id="7660746562008890421" name="singleShape" index="2cxsLt" />
       </concept>
@@ -94,5 +95,6 @@
       <property role="3bJxk8" value="extra shapes main" />
     </node>
   </node>
+  <node concept="7HQnH" id="7CsTXhXEUx7" />
 </model>
 
