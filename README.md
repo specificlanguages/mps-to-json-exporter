@@ -49,9 +49,8 @@ child and reference).
 # Exporting MPS Root as JSON
 
 Define a model2json root:
--  specify the root that you want to export to JSON.
+
+- specify the root that you want to export to JSON.
 - specify the schema-export that was used to export the corresponding JSON schema, 
   this will ensure that the exported JSON can be validated by the Schema, e.g. ignored properties are taken into
   account in both the schema and the JSON.
-  
-The JSON 
