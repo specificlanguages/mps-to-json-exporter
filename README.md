@@ -45,12 +45,41 @@ child and reference).
 
 **Required** As of now no property is required in the Schama.
 
-
 # Exporting MPS Root as JSON
 
 Define a model2json root:
 
 - specify the root that you want to export to JSON.
 - specify the schema-export that was used to export the corresponding JSON schema, 
-  this will ensure that the exported JSON can be validated by the Schema, e.g. ignored properties are taken into
+  this will ensure that the exported JSON can be validated by the schema, e.g. ignored properties are taken into
   account in both the schema and the JSON.
+
+# Concept and Language Reference
+
+## Language com.specificlanguages.metamodel2jsonschema
+
+### Concept MetamodelToJsonSchemaExport
+
+Configures the schema export. Specifies the following pieces of information:
+
+* schema meta-information (`schemaId`, `schemaTitle`, `schemaDescription`),
+* set of complete languages and/or individual concepts to be exported (`completeLanguages`, `additionalConcepts`,
+  `additionalEnums`).
+* properties to ignore during export (`ignoredProperties`),
+* an _extender_ to add computed information to exported nodes, such as types of expressions (`nodeAttributeExtender`).
+
+The extender does not take any effect at the stage of exporting the metamodel to JSON schema but is called at the later
+stage of exporting a particular model as JSON.
+
+## Language com.specificlanguages.metamodel2java
+
+This language does not define any concepts of its own but provides a generator that, given
+a `MetamodelToJsonSchemaExport` node, will produce a Java data class for each concept, together with a method to
+read node data from JSON. 
+
+## Language com.specificlanguages.model2json
+
+### Concept Model2Json
+
+Marks a model for exporting as JSON. Given a model that contains an instance of Model2Json, the generator of the concept
+will export the entire model (except for the Model2Json node itself) as JSON.
