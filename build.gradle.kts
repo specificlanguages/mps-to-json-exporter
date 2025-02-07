@@ -25,7 +25,7 @@ stubs {
     }
 }
 
-group = "com.specificlanguages"
+group = "com.specificlanguages.mps-json"
 version = "0.1.0"
 
 publishing {
