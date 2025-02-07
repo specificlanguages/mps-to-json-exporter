@@ -38,13 +38,13 @@
         <property id="2465432216756299184" name="color" index="3bDHKT" />
         <property id="2465432216755825793" name="fullName" index="3bJxk8" />
       </concept>
-      <concept id="2465432216754782364" name="com.specificlanguages.jsontest.structure.Leaf" flags="ng" index="3bjZ$l">
+      <concept id="2465432216754782364" name="com.specificlanguages.jsontest.structure.Leaf" flags="ngI" index="3bjZ$l">
         <property id="2465432216754782370" name="isOk" index="3bjZ$F" />
         <reference id="2465432216754782378" name="referenceToleafShape" index="3bjZ$z" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>

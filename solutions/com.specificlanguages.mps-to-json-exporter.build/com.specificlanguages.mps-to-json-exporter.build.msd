@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="com.specificlanguages.mps-to-json-exporter.build" uuid="1f1b1ad4-6184-4b2f-8ba2-7af5cf62dbdd" moduleVersion="0" compileInMPS="true">
+<solution name="com.specificlanguages.mps-to-json-exporter.build" uuid="1f1b1ad4-6184-4b2f-8ba2-7af5cf62dbdd" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" compile="mps" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)</dependency>
     <dependency reexport="false">de7b3dd2-00f3-408b-b4a5-72c5facff2d9(com.specificlanguages.dependencies)</dependency>
