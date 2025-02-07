@@ -1,17 +1,17 @@
 plugins {
-    id("com.specificlanguages.mps") version "1.2.2"
+    id("com.specificlanguages.mps") version "1.7.0"
     `maven-publish`
 }
 
 repositories {
-    maven(url = "https://projects.itemis.de/nexus/content/repositories/mbeddr")
+    maven("https://artifacts.itemis.cloud/repository/maven-mps")
     mavenCentral()
     // JitPack should come last since it will build things on demand
     maven(url = "https://jitpack.io")
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:2021.1.3@zip")
+    "mps"("com.jetbrains:mps:2021.1.4@zip")
     "generation"("com.specificlanguages:mps-json:1.0.0@zip")
 }
 
