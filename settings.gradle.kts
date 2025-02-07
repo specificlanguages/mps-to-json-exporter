@@ -1,6 +1,8 @@
 pluginManagement {
     repositories {
-        maven { url = uri("https://artifacts.itemis.cloud/repository/maven-mps/") }
+        maven("https://artifacts.itemis.cloud/repository/maven-mps")
         gradlePluginPortal()
     }
 }
+
+rootProject.name = "mps-to-json-exporter"

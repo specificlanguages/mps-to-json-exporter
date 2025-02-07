@@ -4,7 +4,7 @@ plugins {
 }
 
 repositories {
-    maven { url = uri("https://artifacts.itemis.cloud/repository/maven-mps/") }
+    maven("https://artifacts.itemis.cloud/repository/maven-mps")
     mavenCentral()
     // JitPack should come last since it will build things on demand
     maven(url = "https://jitpack.io")
