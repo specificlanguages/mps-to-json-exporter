@@ -2,15 +2,11 @@
 <solution name="com.specificlanguages.dependencies" uuid="de7b3dd2-00f3-408b-b4a5-72c5facff2d9" moduleVersion="0" pluginKind="PLUGIN_OTHER" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}/lib" type="java_classes">
-      <sourceRoot location="." />
       <sourceRoot location="jackson-annotations.jar" />
       <sourceRoot location="jackson-core.jar" />
       <sourceRoot location="jackson-databind.jar" />
       <sourceRoot location="commons-lang3.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/lib/commons-lang3-3.12.0.jar!/" type="java_classes">
-      <sourceRoot location="org" />
-      <sourceRoot location="." />
+      <sourceRoot location="fastdoubleparser.jar" />
     </modelRoot>
   </models>
   <facets>
@@ -23,6 +19,7 @@
     <stubModelEntry path="${module}/lib/jackson-core.jar" />
     <stubModelEntry path="${module}/lib/jackson-databind.jar" />
     <stubModelEntry path="${module}/lib/commons-lang3.jar" />
+    <stubModelEntry path="${module}/lib/fastdoubleparser.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

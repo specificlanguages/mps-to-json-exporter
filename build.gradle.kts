@@ -11,22 +11,22 @@ repositories {
 }
 
 dependencies {
-    "mps"("com.jetbrains:mps:2021.1.4@zip")
-    "generation"("com.specificlanguages:mps-json:1.0.0@zip")
+    mps("com.jetbrains:mps:2023.2.2")
+    generation("com.specificlanguages.mps-json:mps-json:2.0.0")
 }
 
 stubs {
     register("stubs") {
         destinationDir("solutions/com.specificlanguages.dependencies/lib")
 
-        // These versions are used by MPS 2021.1.3
-        dependency("org.apache.commons:commons-lang3:3.10")
-        dependency("com.fasterxml.jackson.core:jackson-databind:2.12.0")
+        // These versions are used by MPS 2023.2.2
+        dependency("org.apache.commons:commons-lang3:3.12.0")
+        dependency("com.fasterxml.jackson.core:jackson-databind:2.15.0")
     }
 }
 
 group = "com.specificlanguages"
-version = "0.0.7"
+version = "0.1.0"
 
 publishing {
     publications {
