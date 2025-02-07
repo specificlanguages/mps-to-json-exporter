@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="com.specificlanguages.metamodel2jsonschema.sandbox" uuid="5a359244-562e-4ae8-9b5e-3383c22a3100" moduleVersion="0" compileInMPS="false">
+<solution name="com.specificlanguages.metamodel2jsonschema.sandbox" uuid="5a359244-562e-4ae8-9b5e-3383c22a3100" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" compile="off" classes="off" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
     <facet planModel="r:d4c45340-7034-41c5-b035-7c2da3e6fcda(com.specificlanguages.metamodel2json.genplan.genplan)" type="generator" />
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">c8036489-5139-41f2-af1c-e66872018a1b(com.specificlanguages.jsontest)</dependency>
     <dependency reexport="false">1a98fe9b-4e07-467b-b9a4-0ac2718239fd(com.specificlanguages.metamodel2json.genplan)</dependency>
@@ -22,12 +21,12 @@
     <language slang="l:c8036489-5139-41f2-af1c-e66872018a1b:com.specificlanguages.jsontest" version="0" />
     <language slang="l:37ca9e63-a2a3-4038-b64b-816e865c36b1:com.specificlanguages.metamodel2jsonschema" version="0" />
     <language slang="l:c72bb5ed-7d2b-4e68-8d06-5f02045d0bcc:com.specificlanguages.model2json" version="0" />
-    <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="11" />
+    <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
-    <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="1" />
+    <language slang="l:83888646-71ce-4f1c-9c53-c54016f6ad4f:jetbrains.mps.baseLanguage.collections" version="2" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
     <language slang="l:446c26eb-2b7b-4bf0-9b35-f83fa582753e:jetbrains.mps.lang.modelapi" version="0" />
-    <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="18" />
+    <language slang="l:7866978e-a0f0-4cc7-81bc-4d213d9375e1:jetbrains.mps.lang.smodel" version="19" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
