@@ -1,5 +1,6 @@
 plugins {
-    id("com.specificlanguages.mps") version "1.8.0"
+    id("com.specificlanguages.mps") version "1.9.0"
+    id("com.specificlanguages.jbr-toolchain") version "1.0.1"
     `maven-publish`
 }
 
@@ -13,6 +14,12 @@ repositories {
 dependencies {
     mps("com.jetbrains:mps:2023.2.2")
     generation("com.specificlanguages.mps-json:mps-json:2.0.0")
+
+    jbr("com.jetbrains.jdk:jbr_jcef:17.0.11-b1207.30")
+}
+
+mpsDefaults {
+    javaLauncher = jbrToolchain.javaLauncher
 }
 
 stubs {
