@@ -1,6 +1,7 @@
+import com.specificlanguages.mps.MainBuild
+
 plugins {
-    id("com.specificlanguages.mps") version "1.9.0"
-    id("com.specificlanguages.jbr-toolchain") version "1.0.1"
+    id("com.specificlanguages.mps") version "2.0.0-pre1"
     `maven-publish`
     signing
     id("com.gradleup.nmcp").version("0.0.8")
@@ -13,18 +14,21 @@ repositories {
 
 dependencies {
     mps("com.jetbrains:mps:2023.2.2")
-    generation("com.specificlanguages.mps-json:mps-json:2.0.0")
-
     jbr("com.jetbrains.jdk:jbr_jcef:17.0.11-b1207.30")
+    generation("com.specificlanguages.mps-json:mps-json:2.0.0")
 }
 
-mpsDefaults {
-    javaLauncher = jbrToolchain.javaLauncher
+mpsBuilds {
+    create<MainBuild>("main") {
+        buildSolutionDescriptor = file("solutions/com.specificlanguages.mps-to-json-exporter.build/com.specificlanguages.mps-to-json-exporter.build.msd")
+        buildProjectName = "com.specificlanguages.mps-to-json-exporter"
+        buildFile = file("build.xml")
+    }
 }
 
-stubs {
-    register("stubs") {
-        destinationDir("solutions/com.specificlanguages.dependencies/lib")
+bundledDependencies {
+    register("deps") {
+        destinationDir = file("solutions/com.specificlanguages.dependencies/lib")
 
         // These versions are used by MPS 2023.2.2
         dependency("org.apache.commons:commons-lang3:3.12.0")
